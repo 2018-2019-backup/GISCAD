@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f848e59d-54eb-4880-8e13-0be61fadeadd}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;idl;odl</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{60d5119b-1b97-4457-85a2-8600410e1cc9}</UniqueIdentifier>
+      <Extensions>h;hh;hxx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f97b4469-01f8-422f-a0c0-5f29a32fc816}</UniqueIdentifier>
+      <Extensions>rc;ico;bmp;cur;jpg;gif</Extensions>
+    </Filter>
+    <Filter Include="Miscellaneous Files">
+      <UniqueIdentifier>{b6af800c-3956-4765-99be-0e3729211a1f}</UniqueIdentifier>
+      <Extensions>reg;rgs;mak;clw;vsdir;vsz;css;inf;vcproj;csproj</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AECSmartPole\ACEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\ACListWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\acrxEntryPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\AECSmartPole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\AttachCableDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\DocData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\EditListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\IEComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\InPlaceEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\LegendInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\LightDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\LightInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\ListItemEditCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\OptionsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\OtherCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\PoleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\PoleInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\QueryTbl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\ReplaceLightDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\SortHeaderCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\SortListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\SPUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\TableColumnsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AECSmartPole\BalloonHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AECSmartPole\ACListWnd.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aecsmartpole\adskDocReactor.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aecsmartpole\adskMyDbReactor.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\AttachCableDlg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\BalloonHelp.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\DocData.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\EditListCtrl.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aecsmartpole\Hherror.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\InPlaceEdit.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\LegendInfo.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\LightDlg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\LightInfo.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\ListItemEditCtrl.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\MemDC.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\OptionsDlg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\PoleDlg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\PoleInfo.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\QueryTbl.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\ReplaceLightDlg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\SortHeaderCtrl.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\SortListCtrl.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\SPUtils.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\StdAfx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AECSmartPole\TableColumnsDlg.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AECSmartPole\AECSmartPole.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aecsmartpole\Bond.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\Bond.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\Cable.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\EditLight.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\EditLight.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\Legend.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\LightSchedule.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\Options.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\Pole.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\Renumber.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\Renumber.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="aecsmartpole\res\Table.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="AECSmartPole\ACEdit.h">
+      <Filter>Include Files</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="AECSmartPole\IEComboBox.h">
+      <Filter>Include Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>
