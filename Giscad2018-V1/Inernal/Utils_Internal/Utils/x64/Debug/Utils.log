@@ -1,0 +1,47 @@
+﻿  stdafx.cpp
+  Utils.cpp
+  NSValidator.cpp
+NSValidator.cpp(264): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+  NSTextLogger.cpp
+NSTextLogger.cpp(64): warning C4477: 'fwprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::size_t'
+  NSTextLogger.cpp(64): note: consider using '%zd' in the format string
+NSTextLogger.cpp(68): warning C4477: 'fwprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::size_t'
+  NSTextLogger.cpp(68): note: consider using '%zd' in the format string
+  NSReportWriter.cpp
+  NSReportLogger.cpp
+  NSLogger.cpp
+NSLogger.cpp(249): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSLogger.cpp(252): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSLogger.cpp(264): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSLogger.cpp(267): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSLogger.cpp(322): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSLogger.cpp(325): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSLogger.cpp(337): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSLogger.cpp(340): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  NSLogCollection.cpp
+  NSHTMLLogger.cpp
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\NSDatabaseMgr.h(34): warning C4251: 'CNSDatabaseMgr::m_pConn': class '_com_ptr_t<_com_IIID<_Connection,_GUID_00001550_0000_0010_8000_00aa006d2ea4>>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+  d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\x64\debug\msado15.tlh(242): note: see declaration of '_com_ptr_t<_com_IIID<_Connection,_GUID_00001550_0000_0010_8000_00aa006d2ea4>>'
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\NSDatabaseMgr.h(35): warning C4251: 'CNSDatabaseMgr::m_pRecSet': class '_com_ptr_t<_com_IIID<_Recordset,_GUID_00001556_0000_0010_8000_00aa006d2ea4>>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+  d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\x64\debug\msado15.tlh(246): note: see declaration of '_com_ptr_t<_com_IIID<_Recordset,_GUID_00001556_0000_0010_8000_00aa006d2ea4>>'
+NSHTMLLogger.cpp(634): warning C4101: 'szFormat': unreferenced local variable
+  NSDatabaseMgr.cpp
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\NSDatabaseMgr.h(34): warning C4251: 'CNSDatabaseMgr::m_pConn': class '_com_ptr_t<_com_IIID<_Connection,_GUID_00001550_0000_0010_8000_00aa006d2ea4>>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+  d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\x64\debug\msado15.tlh(242): note: see declaration of '_com_ptr_t<_com_IIID<_Connection,_GUID_00001550_0000_0010_8000_00aa006d2ea4>>'
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\NSDatabaseMgr.h(35): warning C4251: 'CNSDatabaseMgr::m_pRecSet': class '_com_ptr_t<_com_IIID<_Recordset,_GUID_00001556_0000_0010_8000_00aa006d2ea4>>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+  d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\x64\debug\msado15.tlh(246): note: see declaration of '_com_ptr_t<_com_IIID<_Recordset,_GUID_00001556_0000_0010_8000_00aa006d2ea4>>'
+  NSConfigFileMgr.cpp
+NSConfigFileMgr.cpp(506): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+NSConfigFileMgr.cpp(514): warning C4244: 'initializing': conversion from 'std::streamoff' to 'long', possible loss of data
+NSConfigFileMgr.cpp(516): warning C4101: 'sizeLineBuffer': unreferenced local variable
+  Running Code Analysis for C/C++...
+  Generating Code...
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\nshtmllogger.cpp(252): warning C4715: 'CNSHTMLLogger::writeReport': not all control paths return a value
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\My C Sharp App\KKMSoft\Giscad2016\Inernal\Utils_Internal\Utils\x64\Debug\Utils.dll) does not match the Linker's OutputFile property value (D:\My C Sharp App\KKMSoft\Giscad2016\Inernal\Debug\Utils_Internal.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Utils) does not match the Linker's OutputFile property value (Utils_Internal). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ..\..\LibD\Utils_InternalD.lib and object ..\..\LibD\Utils_InternalD.exp
+  Utils.vcxproj -> D:\My C Sharp App\KKMSoft\Giscad2016\Inernal\Utils_Internal\Utils\x64\Debug\Utils.dll
+  Utils.vcxproj -> x64\Debug\UtilsD.pdb (Full PDB)
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\nsconfigfilemgr.cpp(530): warning C6001: Using uninitialized memory 'pszNextDlgToken'.
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\nstextlogger.cpp(64): warning C6328: Size mismatch: 'unsigned __int64' passed as _Param_(3) when 'int' is required in call to 'fwprintf'. 
+d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\nstextlogger.cpp(68): warning C6328: Size mismatch: 'unsigned __int64' passed as _Param_(3) when 'int' is required in call to 'fwprintf'. 

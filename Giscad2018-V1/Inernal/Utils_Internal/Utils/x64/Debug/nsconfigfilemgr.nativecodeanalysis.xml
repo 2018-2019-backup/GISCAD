@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+      <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+      <LINE>530</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'pszNextDlgToken'.</DESCRIPTION>
+    <FUNCTION>ConfigFile::UpdateErrorMsgToFile</FUNCTION>
+    <DECORATED>?UpdateErrorMsgToFile@ConfigFile@@QEAA_NV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@0@Z</DECORATED>
+    <FUNCLINE>499</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>502</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>503</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>505</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>506</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>507</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>507</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>507</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>508</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>510</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>511</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>513</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>514</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>515</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pszNextDlgToken' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>516</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>517</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>518</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>520</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '!inputFile.eof()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>523</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>525</LINE>
+        <COLUMN>39</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>527</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>529</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+        <FILENAME>nsconfigfilemgr.cpp</FILENAME>
+        <LINE>530</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pszNextDlgToken' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
