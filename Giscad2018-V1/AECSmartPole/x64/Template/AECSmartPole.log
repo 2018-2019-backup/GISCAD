@@ -1,0 +1,58 @@
+﻿Build started 07-May-16 12:18:06 PM.
+     1>Project "D:\GISCAD\GISCAD\2014-2016\AECSmartPole\AECSmartPole.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Template\\" /Fd"x64\Template\vc110.pdb" /Gd /TP /errorReport:prompt AECSmartPole\ACEdit.cpp AECSmartPole\ACListWnd.cpp AECSmartPole\acrxEntryPoint.cpp AECSmartPole\AECSmartPole.cpp AECSmartPole\AttachCableDlg.cpp AECSmartPole\BalloonHelp.cpp AECSmartPole\DocData.cpp AECSmartPole\EditListCtrl.cpp AECSmartPole\IEComboBox.cpp AECSmartPole\InPlaceEdit.cpp AECSmartPole\LegendInfo.cpp AECSmartPole\LightDlg.cpp AECSmartPole\LightInfo.cpp AECSmartPole\ListItemEditCtrl.cpp AECSmartPole\OptionsDlg.cpp AECSmartPole\OtherCommands.cpp AECSmartPole\PoleDlg.cpp AECSmartPole\PoleInfo.cpp AECSmartPole\QueryTbl.cpp AECSmartPole\ReplaceLightDlg.cpp AECSmartPole\SortHeaderCtrl.cpp AECSmartPole\SortListCtrl.cpp AECSmartPole\SPUtils.cpp AECSmartPole\StdAfx.cpp AECSmartPole\TableColumnsDlg.cpp
+         ACEdit.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         ACListWnd.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         acrxEntryPoint.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         AECSmartPole.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         AttachCableDlg.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         BalloonHelp.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         DocData.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         EditListCtrl.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         IEComboBox.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         InPlaceEdit.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         LegendInfo.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         LightDlg.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         LightInfo.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         ListItemEditCtrl.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         OptionsDlg.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         OtherCommands.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         PoleDlg.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         PoleInfo.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         QueryTbl.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         ReplaceLightDlg.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         Generating Code...
+         Compiling...
+         SortHeaderCtrl.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         SortListCtrl.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         SPUtils.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         StdAfx.cpp
+     1>Done Building Project "D:\GISCAD\GISCAD\2014-2016\AECSmartPole\AECSmartPole.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.93
