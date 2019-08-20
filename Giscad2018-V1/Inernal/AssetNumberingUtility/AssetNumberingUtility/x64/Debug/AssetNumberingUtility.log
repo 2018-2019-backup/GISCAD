@@ -1,0 +1,44 @@
+﻿  StdAfx.cpp
+       Compiling MFC / STL / ATL header files in release mode.
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  EndDialog.cpp
+       Compiling MFC / STL / ATL header files in release mode.
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  DocData.cpp
+       Compiling MFC / STL / ATL header files in release mode.
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  AssetNumberingUtilityDlg.cpp
+       Compiling MFC / STL / ATL header files in release mode.
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+AssetNumberingUtilityDlg.cpp(301): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+AssetNumberingUtilityDlg.cpp(304): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'CString'
+  AssetNumberingUtility.cpp
+       Compiling MFC / STL / ATL header files in release mode.
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  acrxEntryPoint.cpp
+       Compiling MFC / STL / ATL header files in release mode.
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Running Code Analysis for C/C++...
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\My C Sharp App\KKMSoft\Giscad2016\Inernal\AssetNumberingUtility\AssetNumberingUtility\x64\Debug\AssetNumberingUtility.dll) does not match the Linker's OutputFile property value (D:\My C Sharp App\KKMSoft\Giscad2016\Inernal\Debug\NSAssetNumberingUtility2010.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1190,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(AssetNumberingUtility) does not match the Linker's OutputFile property value (NSAssetNumberingUtility2010). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ..\..\LibD/AssetNumberingUtilityD.lib and object ..\..\LibD/AssetNumberingUtilityD.exp
+rxapi.lib(libinit.obj) : warning LNK4099: PDB 'rxapi.pdb' was not found with 'rxapi.lib(libinit.obj)' or at 'D:\My C Sharp App\KKMSoft\Giscad2016\Inernal\AssetNumberingUtility\AssetNumberingUtility\x64\Debug\rxapi.pdb'; linking object as if no debug info
+  AssetNumberingUtility.vcxproj -> D:\My C Sharp App\KKMSoft\Giscad2016\Inernal\AssetNumberingUtility\AssetNumberingUtility\x64\Debug\AssetNumberingUtility.dll
+  AssetNumberingUtility.vcxproj -> x64\Debug\AssetNumberingUtilityD.pdb (Full PDB)
+d:\my c sharp app\objectarx_2018\inc\dbxentrypoint.h(163): warning C6011: Dereferencing NULL pointer '*ppEntry'. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2405): warning C28251: Inconsistent annotation for 'BSTR_UserSize': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5330). Note: There are several prototypes for this function. This warning compares the first with instance number 11. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2406): warning C28251: Inconsistent annotation for 'BSTR_UserMarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5331). Note: There are several prototypes for this function. This warning compares the first with instance number 11. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2407): warning C28251: Inconsistent annotation for 'BSTR_UserUnmarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5332). Note: There are several prototypes for this function. This warning compares the first with instance number 11. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2408): warning C28251: Inconsistent annotation for 'BSTR_UserFree': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5333). Note: There are several prototypes for this function. This warning compares the first with instance number 11. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2410): warning C28251: Inconsistent annotation for 'VARIANT_UserSize': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5340). Note: There are several prototypes for this function. This warning compares the first with instance number 6. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2411): warning C28251: Inconsistent annotation for 'VARIANT_UserMarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5341). Note: There are several prototypes for this function. This warning compares the first with instance number 6. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2412): warning C28251: Inconsistent annotation for 'VARIANT_UserUnmarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5342). Note: There are several prototypes for this function. This warning compares the first with instance number 6. 
+d:\my c sharp app\objectarx_2018\inc-x64\actc_i.h(2413): warning C28251: Inconsistent annotation for 'VARIANT_UserFree': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5343). Note: There are several prototypes for this function. This warning compares the first with instance number 6. 
+d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\acrxentrypoint.cpp(97): warning C6276: Cast between semantically different string types:  char * to wchar_t *.  Use of invalid string can lead to undefined behavior.
+d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\acrxentrypoint.cpp(331): warning C6031: Return value ignored: 'CoInitialize'.
+d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\assetnumberingutilitydlg.cpp(140): warning C6031: Return value ignored: 'ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t> > >::LoadStringW'.
+d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\assetnumberingutilitydlg.cpp(301): warning C6284: Object passed as _Param_(3) when a string is required in call to 'fprintf' Actual type: 'class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >'.
+d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\assetnumberingutilitydlg.cpp(304): warning C6284: Object passed as _Param_(3) when a string is required in call to 'fprintf' Actual type: 'class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >'.
+d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\assetnumberingutilitydlg.cpp(543): warning C6054: String 'szAssetsCnt' might not be zero-terminated.
