@@ -1,0 +1,341 @@
+1>------ Rebuild All started: Project: EllipseConnector, Configuration: Release x64 ------
+1>Deleting intermediate and output files for project 'EllipseConnector', configuration 'Release|x64'
+1>Compiling...
+1>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+1>stdafx.cpp
+1>Compiling...
+1>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+1>EllipseConnector.cpp
+1>NSEllipseConnector.cpp
+1>NSDataItem.cpp
+1>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\ellipseconnector_internal\ellipseconnector\../../include/nsdataitem.h(15) : warning C4251: 'CNSDataItem::m_mapOfParameters' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'CNSDataItem'
+1>        with
+1>        [
+1>            _Kty=TCHAR *,
+1>            _Ty=TCHAR *
+1>        ]
+1>.\NSDataItem.cpp(66) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+1>Generating Code...
+1>Linking...
+1>   Creating library ..\..\Lib\EllipseConnector_Internal.lib and object ..\..\Lib\EllipseConnector_Internal.exp
+1>Build log was saved at "file://c:\Users\Parthiban\Desktop\Choku-GISCAD\GIS_CAD 2010\EllipseConnector_Internal\EllipseConnector\x64\Release\BuildLog.htm"
+1>EllipseConnector - 0 error(s), 4 warning(s)
+2>------ Rebuild All started: Project: Utils, Configuration: Release x64 ------
+2>Deleting intermediate and output files for project 'Utils', configuration 'Release|x64'
+2>Compiling...
+2>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+2>stdafx.cpp
+2>Compiling...
+2>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+2>NSConfigFileMgr.cpp
+2>.\NSConfigFileMgr.cpp(501) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSConfigFileMgr.cpp(509) : warning C4244: 'initializing' : conversion from 'std::streamoff' to 'long', possible loss of data
+2>.\NSConfigFileMgr.cpp(511) : warning C4101: 'sizeLineBuffer' : unreferenced local variable
+2>Utils.cpp
+2>NSValidator.cpp
+2>.\NSValidator.cpp(263) : warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+2>NSTextLogger.cpp
+2>NSReportWriter.cpp
+2>NSReportLogger.cpp
+2>NSLogger.cpp
+2>.\NSLogger.cpp(249) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSLogger.cpp(252) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSLogger.cpp(264) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSLogger.cpp(267) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSLogger.cpp(322) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSLogger.cpp(325) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSLogger.cpp(337) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>.\NSLogger.cpp(340) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+2>NSLogCollection.cpp
+2>.\NSLogCollection.cpp(9) : warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+2>        Add directive to 'stdafx.h' or rebuild precompiled header
+2>NSHTMLLogger.cpp
+2>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\utils_internal\utils\NSDatabaseMgr.h(34) : warning C4251: 'CNSDatabaseMgr::m_pConn' : class '_com_ptr_t<_IIID>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+2>        with
+2>        [
+2>            _IIID=_com_IIID<_Connection,& _GUID_00001550_0000_0010_8000_00aa006d2ea4>
+2>        ]
+2>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\utils_internal\utils\NSDatabaseMgr.h(35) : warning C4251: 'CNSDatabaseMgr::m_pRecSet' : class '_com_ptr_t<_IIID>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+2>        with
+2>        [
+2>            _IIID=_com_IIID<_Recordset,& _GUID_00001556_0000_0010_8000_00aa006d2ea4>
+2>        ]
+2>.\NSHTMLLogger.cpp(634) : warning C4101: 'szFormat' : unreferenced local variable
+2>NSDatabaseMgr.cpp
+2>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\utils_internal\utils\NSDatabaseMgr.h(34) : warning C4251: 'CNSDatabaseMgr::m_pConn' : class '_com_ptr_t<_IIID>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+2>        with
+2>        [
+2>            _IIID=_com_IIID<_Connection,& _GUID_00001550_0000_0010_8000_00aa006d2ea4>
+2>        ]
+2>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\utils_internal\utils\NSDatabaseMgr.h(35) : warning C4251: 'CNSDatabaseMgr::m_pRecSet' : class '_com_ptr_t<_IIID>' needs to have dll-interface to be used by clients of class 'CNSDatabaseMgr'
+2>        with
+2>        [
+2>            _IIID=_com_IIID<_Recordset,& _GUID_00001556_0000_0010_8000_00aa006d2ea4>
+2>        ]
+2>Generating Code...
+2>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\utils_internal\utils\nshtmllogger.cpp(252) : warning C4715: 'CNSHTMLLogger::writeReport' : not all control paths return a value
+2>Linking...
+2>   Creating library ..\..\Lib/Utils_Internal.lib and object ..\..\Lib/Utils_Internal.exp
+2>Build log was saved at "file://c:\Users\Parthiban\Desktop\Choku-GISCAD\GIS_CAD 2010\Utils_Internal\Utils\x64\Release\BuildLog.htm"
+2>Utils - 0 error(s), 21 warning(s)
+3>------ Rebuild All started: Project: RealDWGProcessor, Configuration: Release x64 ------
+3>Deleting intermediate and output files for project 'RealDWGProcessor', configuration 'Release|x64'
+3>Compiling...
+3>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+3>stdafx.cpp
+3>Compiling...
+3>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+3>NSAsset.cpp
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\nsasset.h(33) : warning C4251: 'CNSAsset::m_strAssetNum' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\nsasset.h(34) : warning C4251: 'CNSAsset::m_strLayerName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\nsasset.h(35) : warning C4251: 'CNSAsset::m_strBlockName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\nsasset.h(36) : warning C4251: 'CNSAsset::m_strDepot' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\nsasset.h(37) : warning C4251: 'CNSAsset::m_strEquipClass' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\nsasset.h(39) : warning C4251: 'CNSAsset::m_mapOfAttributes' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+3>        with
+3>        [
+3>            _Kty=std::wstring,
+3>            _Ty=std::wstring
+3>        ]
+3>RealDWGProcessor.cpp
+3>NSValidationDataCollector.cpp
+3>NSTextStyle.cpp
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSTextStyle.h(13) : warning C4251: 'CNSTextStyle::m_strTextStyleName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSTextStyle'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSTextStyle.h(14) : warning C4251: 'CNSTextStyle::m_strFontName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSTextStyle'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>NSTextHeight.cpp
+3>NSPoint3D.cpp
+3>NSLineType.cpp
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSLineType.h(13) : warning C4251: 'CNSLineType::strLineTypeName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSLineType'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSLineType.h(14) : warning C4251: 'CNSLineType::strAsciiDescription' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSLineType'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>NSLayer.cpp
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSLayer.h(12) : warning C4251: 'CNSLayer::m_strLayername' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSLayer'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSLayer.h(19) : warning C4251: 'CNSLayer::m_strLinetypeName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSLayer'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSLayer.h(20) : warning C4251: 'CNSLayer::m_strPlotStyleName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSLayer'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>nsdwgmgr.cpp
+3>.\nsdwgmgr.cpp(708) : warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(366) : see declaration of 'sprintf'
+3>.\nsdwgmgr.cpp(2079) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+3>.\nsdwgmgr.cpp(3216) : warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+3>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(366) : see declaration of 'sprintf'
+3>.\nsdwgmgr.cpp(5748) : warning C4244: 'argument' : conversion from 'Adesk::IntDbId' to 'const long', possible loss of data
+3>.\nsdwgmgr.cpp(6732) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+3>.\nsdwgmgr.cpp(6734) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+3>.\nsdwgmgr.cpp(7178) : warning C4244: 'argument' : conversion from 'Adesk::IntDbId' to 'long', possible loss of data
+3>.\nsdwgmgr.cpp(7351) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+3>NSDimStyle.cpp
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSDimStyle.h(12) : warning C4251: 'CNSDimStyle::m_strDimStylename' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSDimStyle'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSDimStyle.h(13) : warning C4251: 'CNSDimStyle::m_strFont' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSDimStyle'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>c:\users\parthiban\desktop\choku-giscad\gis_cad 2010\arxprocessor\arxprocessor\..\..\Include\NSDimStyle.h(14) : warning C4251: 'CNSDimStyle::m_strLineTypeName' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'CNSDimStyle'
+3>        with
+3>        [
+3>            _Elem=wchar_t,
+3>            _Traits=std::char_traits<wchar_t>,
+3>            _Ax=std::allocator<wchar_t>
+3>        ]
+3>NSDelBlock.cpp
+3>NSCompositeGeometry.cpp
+3>NSBlock.cpp
+3>.\NSBlock.cpp(915) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+3>Generating Code...
+3>Linking...
+3>   Creating library ..\..\Lib/ArxProcessor.lib and object ..\..\Lib/ArxProcessor.exp
+3>rxapi.lib(nullobid.obj) : warning LNK4099: PDB 'rxapi.pdb' was not found with 'C:\ObjectARX 2010\lib-x64\rxapi.lib' or at 'c:\Users\Parthiban\Desktop\Choku-GISCAD\GIS_CAD 2010\ARXProcessor\ARXProcessor\x64\rxapi.pdb'; linking object as if no debug info
+3>Build log was saved at "file://c:\Users\Parthiban\Desktop\Choku-GISCAD\GIS_CAD 2010\ARXProcessor\ARXProcessor\x64\Release\BuildLog.htm"
+3>RealDWGProcessor - 0 error(s), 28 warning(s)
+4>------ Rebuild All started: Project: Validator, Configuration: Release x64 ------
+4>Deleting intermediate and output files for project 'Validator', configuration 'Release|x64'
+4>Compiling...
+4>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+4>stdafx.cpp
+4>Compiling...
+4>cl : Command line warning D9035 : option 'Wp64' has been deprecated and will be removed in a future release
+4>NSAssetValidation.cpp
+4>.\NSAssetValidation.cpp(195) : warning C4101: 'szMsg' : unreferenced local variable
+4>.\NSAssetValidation.cpp(228) : warning C4101: 'szMsg' : unreferenced local variable
+4>.\NSAssetValidation.cpp(264) : warning C4101: 'pszMsg' : unreferenced local variable
+4>.\NSAssetValidation.cpp(440) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+4>Validator.cpp
+4>NSValidatorImpl.cpp
+4>NSTitleBlockTbl.cpp
+4>.\NSTitleBlockTbl.cpp(40) : warning C4101: 'szFormat' : unreferenced local variable
+4>NSTextStyleTbl.cpp
+4>.\NSTextStyleTbl.cpp(33) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSTextStyleTbl.cpp(30) : warning C4101: 'pLocalTextStyle' : unreferenced local variable
+4>.\NSTextStyleTbl.cpp(30) : warning C4101: 'pStdTextStyle' : unreferenced local variable
+4>NSTextHeightTbl.cpp
+4>.\NSTextHeightTbl.cpp(46) : warning C4101: 'szQuery' : unreferenced local variable
+4>NSRelationLinker.cpp
+4>.\NSRelationLinker.cpp(2612) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSRelationLinker.cpp(3066) : warning C4101: 'szFormat' : unreferenced local variable
+4>NSLocationValidator.cpp
+4>.\NSLocationValidator.cpp(93) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSLocationValidator.cpp(114) : warning C4101: 'szFormat' : unreferenced local variable
+4>NSLineTypeTbl.cpp
+4>.\NSLineTypeTbl.cpp(36) : warning C4101: 'szFormat' : unreferenced local variable
+4>NSLayerTbl.cpp
+4>.\NSLayerTbl.cpp(34) : warning C4101: 'szFormat' : unreferenced local variable
+4>NSLayerBlockValidator.cpp
+4>.\NSLayerBlockValidator.cpp(263) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSLayerBlockValidator.cpp(437) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSLayerBlockValidator.cpp(463) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSLayerBlockValidator.cpp(1099) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSLayerBlockValidator.cpp(1220) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSLayerBlockValidator.cpp(1256) : warning C4101: 'szFormat' : unreferenced local variable
+4>NSExtraValidator.cpp
+4>.\NSExtraValidator.cpp(146) : warning C4101: 'nErrNumber' : unreferenced local variable
+4>NSErrorParser.cpp
+4>.\NSErrorParser.cpp(36) : warning C4101: 'szFormat' : unreferenced local variable
+4>.\NSErrorParser.cpp(294) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+4>.\NSErrorParser.cpp(295) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+4>.\NSErrorParser.cpp(299) : warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+4>NSErrorCodes.cpp
+4>..\..\Include\NSErrorCodes.cpp(64) : warning C4101: 'strvalue2' : unreferenced local variable
+4>..\..\Include\NSErrorCodes.cpp(64) : warning C4101: 'strvalue1' : unreferenced local variable
+4>..\..\Include\NSErrorCodes.cpp(63) : warning C4101: 'ivalue' : unreferenced local variable
+4>..\..\Include\NSErrorCodes.cpp(64) : warning C4101: 'strvalue3' : unreferenced local variable
+4>NSErrorCircle.cpp
+4>NSDimStyleTbl.cpp
+4>.\NSDimStyleTbl.cpp(40) : warning C4101: 'szFormat' : unreferenced local variable
+4>NSBaseValidator.cpp
+4>.\NSBaseValidator.cpp(73) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+4>.\NSBaseValidator.cpp(167) : warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+4>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\time.inl(114) : see declaration of 'localtime'
+4>.\NSBaseValidator.cpp(523) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+4>Generating Code...
+4>Linking...
+4>   Creating library ..\..\Lib/Validator_Internal.lib and object ..\..\Lib/Validator_Internal.exp
+4>Build log was saved at "file://c:\Users\Parthiban\Desktop\Choku-GISCAD\GIS_CAD 2010\Validator_Internal\Validator\x64\Release\BuildLog.htm"
+4>Validator - 0 error(s), 36 warning(s)
+5>------ Rebuild All started: Project: AssetMgr, Configuration: Release x64 ------
+5>Deleting intermediate and output files for project 'AssetMgr', configuration 'Release|x64'
+5>Compiling...
+5>AssetMgr.cpp
+5>stdafx.cpp
+5>NSAssetMgrIFace.cpp
+5>NSAssetHandler.cpp
+5>.\NSAssetHandler.cpp(84) : warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+5>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(311) : see declaration of '_wcsupr'
+5>.\NSAssetHandler.cpp(123) : warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+5>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(311) : see declaration of '_wcsupr'
+5>.\NSAssetHandler.cpp(136) : warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+5>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\string.h(311) : see declaration of '_wcsupr'
+5>.\NSAssetHandler.cpp(282) : warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+5>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdio.h(237) : see declaration of 'fopen'
+5>.\NSAssetHandler.cpp(2208) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+5>.\NSAssetHandler.cpp(2338) : warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+5>        C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include\stdlib.h(862) : see declaration of 'itoa'
+5>Linking...
+5>   Creating library ..\..\Lib/AssetMgr.lib and object ..\..\Lib/AssetMgr.exp
+5>Generating code
+5>Finished generating code
+5>Build log was saved at "file://c:\Users\Parthiban\Desktop\Choku-GISCAD\GIS_CAD 2010\AssetMgr\AssetMgr\x64\Release\BuildLog.htm"
+5>AssetMgr - 0 error(s), 6 warning(s)
+6>------ Rebuild All started: Project: AcadValidation, Configuration: Release x64 ------
+6>Deleting intermediate and output files for project 'AcadValidation', configuration 'Release|x64'
+6>Compiling...
+6>StdAfx.cpp
+6>Compiling...
+6>AcadValidation.cpp
+6>NSValidatorDlg.cpp
+6>NSTabPageSSL.cpp
+6>NSTabCtrlSSL.cpp
+6>NSReportDialog.cpp
+6>NSHyperEdit3.cpp
+6>NSHyperEdit2.cpp
+6>NSHyperEdit.cpp
+6>NSEllipseDlg.cpp
+6>DocData.cpp
+6>acrxEntryPoint.cpp
+6>Generating Code...
+6>Compiling resources...
+6>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
+6>Copyright (C) Microsoft Corporation.  All rights reserved.
+6>Linking...
+6>   Creating library ..\..\Lib/NSAcadValidation.lib and object ..\..\Lib/NSAcadValidation.exp
+6>Build log was saved at "file://c:\Users\Parthiban\Desktop\Choku-GISCAD\GIS_CAD 2010\AcadValidation\AcadValidation\x64\Release\BuildLog.htm"
+6>AcadValidation - 0 error(s), 0 warning(s)
+========== Rebuild All: 6 succeeded, 0 failed, 0 skipped ==========
