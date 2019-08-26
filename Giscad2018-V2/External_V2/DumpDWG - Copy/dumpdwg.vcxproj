@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4C1D69A1-B62D-46CC-85AC-F4A6BD2A45A1}</ProjectGuid>
+    <RootNamespace>RealDWGProcessor</RootNamespace>
+    <CharacterSet>Unicode</CharacterSet>
+    <ProjectName>RealDWGProcessor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="C:\Program Files\RealDWG 2013\inc\rxsdk_Releasecfg.props" />
+    <Import Project="C:\Program Files\RealDWG 2013\inc\dbx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="C:\Program Files\RealDWG 2013\inc\rxsdk_Debugcfg.props" />
+    <Import Project="C:\Program Files\RealDWG 2013\inc\dbx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="C:\Program Files\RealDWG 2013\inc\rxsdk_Releasecfg.props" />
+    <Import Project="C:\Program Files\RealDWG 2013\inc\dbx.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="C:\Program Files\RealDWG 2013\inc\rxsdk_Debugcfg.props" />
+    <Import Project="C:\Program Files\RealDWG 2013\inc\dbx.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30128.1</_ProjectFileVersion>
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <TargetExt>.dll</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RealDWGProcessor</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\RealDWG 2013\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;WORLD_DRAW;REALDWGPROCESSOR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader />
+    </ClCompile>
+    <Link>
+      <OutputFile>..\Debug\RealDWGProcessor.dll</OutputFile>
+      <AdditionalDependencies>rcexelib.obj;odbc32.lib;odbccp32.lib;urlmon.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\RealDWG 2013\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\LibD\$(TargetName).lib</ImportLibrary>
+      <TargetMachine Condition="'$(Platform)'=='x64'">MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dir.cpp" />
+    <ClCompile Include="dumpcore.cpp" />
+    <ClCompile Include="dumpdwg.cpp" />
+    <ClCompile Include="maps.cpp" />
+    <ClCompile Include="myacgi.cpp" />
+    <ClCompile Include="NSAsset.cpp" />
+    <ClCompile Include="NSBlock.cpp" />
+    <ClCompile Include="NSCompositeGeometry.cpp" />
+    <ClCompile Include="NSDimStyle.cpp" />
+    <ClCompile Include="NSDWGMgr.cpp" />
+    <ClCompile Include="NSLayer.cpp" />
+    <ClCompile Include="NSLineType.cpp" />
+    <ClCompile Include="NSPoint3D.cpp" />
+    <ClCompile Include="NSTextHeight.cpp" />
+    <ClCompile Include="NSTextStyle.cpp" />
+    <ClCompile Include="NSValidationDataCollector.cpp" />
+    <ClCompile Include="RealDWGProcessor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RealDWGProcessor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
