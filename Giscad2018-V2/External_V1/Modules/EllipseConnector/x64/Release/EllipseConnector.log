@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  EllipseConnector.cpp
+  NSDataItem.cpp
+d:\my c sharp app\kkmsoft\giscad2016\external\modules\ellipseconnector\../../include/nsdataitem.h(15): warning C4251: 'CNSDataItem::m_mapOfParameters': class 'std::map<TCHAR *,TCHAR *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'CNSDataItem'
+          with
+          [
+              _Kty=TCHAR *,
+              _Ty=TCHAR *
+          ]
+  d:\my c sharp app\kkmsoft\giscad2016\external\modules\ellipseconnector\../../include/nsdataitem.h(15): note: see declaration of 'std::map<TCHAR *,TCHAR *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=TCHAR *,
+              _Ty=TCHAR *
+          ]
+NSDataItem.cpp(66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  NSEllipseConnector.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\My C Sharp App\KKMSoft\Giscad2016\External\Modules\EllipseConnector\x64\Release\EllipseConnector.dll) does not match the Linker's OutputFile property value (D:\My C Sharp App\KKMSoft\Giscad2016\External\Release\EllipseConnector.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ..\..\Lib\EllipseConnector.lib and object ..\..\Lib\EllipseConnector.exp
+  EllipseConnector.vcxproj -> D:\My C Sharp App\KKMSoft\Giscad2016\External\Modules\EllipseConnector\x64\Release\EllipseConnector.dll
+  EllipseConnector.vcxproj -> D:\My C Sharp App\KKMSoft\Giscad2016\External\Modules\EllipseConnector\EllipseConnector.pdb (Full PDB)
