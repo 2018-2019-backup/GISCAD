@@ -1,0 +1,39 @@
+﻿E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj(58,5): warning MSB4011: "C:\Users\admin\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.x64.user.props" cannot be imported again. It was already imported at "E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj (57,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  NSAssetValidation.cpp
+  NSBaseValidator.cpp
+  NSDWGMgr.cpp
+NSDWGMgr.cpp(426): warning C4477: 'wprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'const TCHAR *'
+  NSDWGMgr.cpp(426): note: consider using '%lS' in the format string
+  NSDWGMgr.cpp(426): note: consider using '%llS' in the format string
+  NSDWGMgr.cpp(426): note: consider using '%LS' in the format string
+  NSDWGMgr.cpp(426): note: consider using '%wS' in the format string
+NSDWGMgr.cpp(1057): warning C4477: 'wprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  NSDWGMgr.cpp(1057): note: consider using '%lS' in the format string
+  NSDWGMgr.cpp(1057): note: consider using '%llS' in the format string
+  NSDWGMgr.cpp(1057): note: consider using '%LS' in the format string
+  NSDWGMgr.cpp(1057): note: consider using '%wS' in the format string
+NSDWGMgr.cpp(1126): warning C4477: 'wprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  NSDWGMgr.cpp(1126): note: consider using '%lS' in the format string
+  NSDWGMgr.cpp(1126): note: consider using '%llS' in the format string
+  NSDWGMgr.cpp(1126): note: consider using '%LS' in the format string
+  NSDWGMgr.cpp(1126): note: consider using '%wS' in the format string
+  NSDimStyleTbl.cpp
+  NSErrorCircle.cpp
+  NSErrorCodes.cpp
+  NSErrorParser.cpp
+  NSExtraValidator.cpp
+  NSLayerBlockValidator.cpp
+  NSLayerTbl.cpp
+  NSLineTypeTbl.cpp
+  NSLocationValidator.cpp
+  NSRelationLinker.cpp
+  NSTextHeightTbl.cpp
+  NSTextStyleTbl.cpp
+  NSTitleBlockTbl.cpp
+  NSValidatorImpl.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\..\..\Release\RealDWGProcessor.dll) does not match the Linker's OutputFile property value (C:\ACAD2018_GISCAD\EE Toolbox\RealDWGProcessor.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ..\..\Lib\RealDWGProcessor.lib and object ..\..\Lib\RealDWGProcessor.exp
+  RealDWGProcessor.vcxproj -> E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\..\..\Release\RealDWGProcessor.dll
+  RealDWGProcessor.vcxproj -> ..\..\Release\RealDWGProcessor.pdb (Full PDB)
