@@ -1,0 +1,284 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\GISCADLoader.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\IE_LOGO.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 245, 60
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About GISCADLoader"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "GISCADLoader Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,188,7,50,16,WS_GROUP
+END
+
+IDD_GISCADLOADER_DIALOG DIALOGEX 0, 0, 361, 343
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "GISCAD Loader 2010 V3.200"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Convert",IDC_BTN_CONVERT,163,320,50,14,WS_DISABLED
+    PUSHBUTTON      "&Validate",IDC_BTN_VALIDATE,225,320,50,14,WS_DISABLED
+    PUSHBUTTON      "E&xit",IDC_BTN_EXIT,287,320,50,14
+    CONTROL         "",IDC_TAB_CTRL,"SysTabControl32",WS_TABSTOP,7,7,347,306
+    CONTROL         141,IDC_REALDWG_IMAGE,"Static",SS_BITMAP,296,7,55,11
+END
+
+IDD_LOADER DIALOGEX 0, 0, 365, 317
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_DWGFile,"SysListView32",LVS_REPORT | LVS_AUTOARRANGE | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,18,259,65
+    PUSHBUTTON      "&Add...",IDC_BTN_ADD_FILES,278,31,50,14
+    PUSHBUTTON      "&Remove...",IDC_BTN_REMOVE_FILES,278,54,50,14,WS_DISABLED
+    CONTROL         "A&sset Validation",IDC_CHK_ASSETVALIDATION,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,17,120,73,10
+    GROUPBOX        "Ellipse Detail",IDC_ELLIPSEDETAIL,7,130,326,85,WS_DISABLED | WS_GROUP
+    LTEXT           "Host",IDC_LBL_HOST,19,151,24,8,WS_DISABLED | NOT WS_GROUP
+    COMBOBOX        IDC_COMBO1_HOST,61,151,102,30,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "User",IDC_LBL_USER,19,171,37,10,WS_DISABLED | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT_USER,61,171,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Position",IDC_STATIC_POSITION,177,171,26,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT1_POSITION,219,171,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Password",IDC_LBL_PASSWORD,19,193,37,10,WS_DISABLED | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT_PASSWORD,61,193,102,12,ES_UPPERCASE | ES_PASSWORD | ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "District",IDC_LBL_DISTRICT,177,193,37,10,WS_DISABLED | NOT WS_GROUP
+    EDITTEXT        IDC_EDIT_DISTRICT,219,193,102,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "DWGToXML",IDC_XML2DWG,7,216,326,44
+    LTEXT           "XMLOutput File Path",IDC_LBL_XMLPATH,15,226,66,8
+    EDITTEXT        IDC_EDIT_XMLPATH,15,240,260,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Browse...",IDC_BTN_BROWSE,278,239,50,14
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,7,266,326,10
+    LTEXT           "",IDC_FILE_NAME,13,279,322,8
+    GROUPBOX        "Drawing Files",IDC_DRAWING_FILES,7,5,326,86,NOT WS_VISIBLE
+    CONTROL         "C&AD Validation",IDC_CHK_CADVALIDATION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,97,73,10
+    CONTROL         "G&IS Validation",IDC_CHK_GISVALIDATION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,109,73,10
+    GROUPBOX        "Validation Rules Error Messages",IDC_VALIDATION_ERRORS,98,92,235,39
+    CONTROL         "P1",IDC_CHK_P1_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,106,111,24,10
+    CONTROL         "P2",IDC_CHK_P2_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,148,111,24,10
+    CONTROL         "P3",IDC_CHK_P3_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,189,111,24,10
+    CONTROL         "P4",IDC_CHK_P4_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,111,24,10
+END
+
+IDD_REPORT DIALOGEX 0, 0, 338, 279
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_REPORT,7,6,327,266,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_INPUTDLG DIALOGEX 0, 0, 186, 54
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GISCADLoader"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_XMLFilename,83,12,86,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,67,33,50,14
+    LTEXT           "Enter XML Filename",IDC_STATIC_XMLFilename,13,14,69,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "GISCADLoader.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "GISCADLoader.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 238
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_GISCADLOADER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 341
+    END
+
+    IDD_LOADER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 348
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_REPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 334
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 272
+    END
+
+    IDD_INPUTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\RealDWG.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About GISCADLoader..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\GISCADLoader.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
