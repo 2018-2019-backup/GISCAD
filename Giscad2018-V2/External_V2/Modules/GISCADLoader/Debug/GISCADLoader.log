@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1611,5): warning : The referenced project '..\..\GISCADConverter\GISCADConverter\GISCADConverter.vcxproj' does not exist.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+  NSTabPageSSL.cpp
+  NSTabCtrlSSL.cpp
+  NSReportDlg.cpp
+  NSLoaderDlg.cpp
+  NSInputDlg.cpp
+  NSHyperEdit3.cpp
+NSHyperEdit3.cpp(84): warning C4311: 'type cast': pointer truncation from 'HINSTANCE' to 'UINT'
+NSHyperEdit3.cpp(110): warning C4312: 'type cast': conversion from 'UINT' to 'HINSTANCE' of greater size
+  NSHyperEdit2.cpp
+NSHyperEdit2.cpp(130): warning C4838: conversion from 'int' to 'WORD' requires a narrowing conversion
+  NSHyperEdit.cpp
+  GISCADLoaderDlg.cpp
+  GISCADLoader.cpp
+  GISCADConvertorDlg.cpp
+  Generating Code...
+e:\giscad\giscad2018\external\modules\giscadloader\nsloaderdlg.cpp(408): warning C4700: uninitialized local variable 'rc' used
+  LINK : ..\..\Debug\GISCADLoader.exe not found or not built by the last incremental link; performing full link
+     Creating library ..\..\LibD\GISCADLoader.lib and object ..\..\LibD\GISCADLoader.exp
+  GISCADLoader.vcxproj -> E:\GISCAD\Giscad2018\External\Modules\GISCADLoader\..\..\Debug\GISCADLoader.exe
+  GISCADLoader.vcxproj -> E:\GISCAD\Giscad2018\External\Modules\GISCADLoader\GISCADLoader.pdb (Full PDB)
