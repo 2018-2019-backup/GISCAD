@@ -1,0 +1,12 @@
+﻿E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj(50,5): warning MSB4011: "C:\Users\admin\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props" cannot be imported again. It was already imported at "E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj (49,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(367,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+  NSConfigFileMgr.cpp
+NSConfigFileMgr.cpp(514): warning C4244: 'initializing': conversion from 'std::streamoff' to 'long', possible loss of data
+NSConfigFileMgr.cpp(516): warning C4101: 'sizeLineBuffer': unreferenced local variable
+  NSValidator.cpp
+NSValidator.cpp(263): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+     Creating library ..\..\Lib\Utils.lib and object ..\..\Lib\Utils.exp
+odbccp32.lib(dllload.obj) : error LNK2001: unresolved external symbol __vsnwprintf_s
+..\..\Release\Utils.dll : fatal error LNK1120: 1 unresolved externals

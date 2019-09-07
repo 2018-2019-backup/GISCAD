@@ -1,0 +1,14 @@
+﻿E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj(62,5): warning MSB4011: "C:\Users\admin\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.x64.user.props" cannot be imported again. It was already imported at "E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj (61,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  stdafx.cpp
+  NSValidator.cpp
+NSValidator.cpp(265): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+  NSConfigFileMgr.cpp
+NSConfigFileMgr.cpp(506): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+NSConfigFileMgr.cpp(514): warning C4244: 'initializing': conversion from 'std::streamoff' to 'long', possible loss of data
+NSConfigFileMgr.cpp(516): warning C4101: 'sizeLineBuffer': unreferenced local variable
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\GISCAD\Giscad2018\External\Modules\Utils\x64\Debug\Utils.dll) does not match the Linker's OutputFile property value (E:\GISCAD\Giscad2018\External\Debug\Utils.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  LINK : ..\..\Debug\Utils.dll not found or not built by the last incremental link; performing full link
+     Creating library ..\..\LibD\Utils.lib and object ..\..\LibD\Utils.exp
+  Utils.vcxproj -> E:\GISCAD\Giscad2018\External\Modules\Utils\x64\Debug\Utils.dll
+  Utils.vcxproj -> E:\GISCAD\Giscad2018\External\Modules\Utils\Utils.pdb (Full PDB)
