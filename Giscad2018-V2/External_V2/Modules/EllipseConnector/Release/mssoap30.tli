@@ -1,0 +1,1891 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (bdaeb93c).
+//
+// e:\giscad\giscad2018\external\modules\ellipseconnector\release\mssoap30.tli
+//
+// Wrapper implementations for Win32 type library C:\Program Files (x86)\Common Files\MSSoap\Binaries\MSSOAP30.dll
+// compiler-generated file created 01/21/19 at 16:35:36 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IParserSource wrapper method implementations
+//
+
+inline _variant_t IParserSource::GetProperty ( _bstr_t par_name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Property(par_name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IParserSource::PutProperty ( _bstr_t par_name, const _variant_t & par_value ) {
+    HRESULT _hr = put_Property(par_name, par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline ISequentialStreamPtr IParserSource::BeginReceiving ( ) {
+    struct ISequentialStream * _result = 0;
+    HRESULT _hr = raw_BeginReceiving(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISequentialStreamPtr(_result, false);
+}
+
+inline HRESULT IParserSource::EndReceiving ( ) {
+    HRESULT _hr = raw_EndReceiving();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IAttachment wrapper method implementations
+//
+
+inline _variant_t IAttachment::GetProperty ( _bstr_t par_name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Property(par_name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IAttachment::PutProperty ( _bstr_t par_name, const _variant_t & par_value ) {
+    HRESULT _hr = put_Property(par_name, par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IReceivedAttachment wrapper method implementations
+//
+
+inline HRESULT IReceivedAttachment::SaveToFile ( _bstr_t par_name, VARIANT_BOOL par_override ) {
+    HRESULT _hr = raw_SaveToFile(par_name, par_override);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t IReceivedAttachment::GetAsByteArray ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetAsByteArray(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline _bstr_t IReceivedAttachment::GetAsString ( _bstr_t par_ContentCharacterSet ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetAsString(par_ContentCharacterSet, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IReceivedAttachments wrapper method implementations
+//
+
+inline long IReceivedAttachments::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IReceivedAttachmentPtr IReceivedAttachments::GetItem ( const _variant_t & par_index ) {
+    struct IReceivedAttachment * _result = 0;
+    HRESULT _hr = get_Item(par_index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReceivedAttachmentPtr(_result, false);
+}
+
+inline IReceivedAttachmentPtr IReceivedAttachments::GetItemWithContext ( const _variant_t & par_index, struct MSXML2::IXMLDOMNode * par_context ) {
+    struct IReceivedAttachment * _result = 0;
+    HRESULT _hr = get_ItemWithContext(par_index, par_context, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReceivedAttachmentPtr(_result, false);
+}
+
+inline IUnknownPtr IReceivedAttachments::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface IComposerDestination wrapper method implementations
+//
+
+inline void IComposerDestination::PutTotalSize ( long _arg1 ) {
+    HRESULT _hr = put_TotalSize(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t IComposerDestination::GetProperty ( _bstr_t par_name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Property(par_name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IComposerDestination::PutProperty ( _bstr_t par_name, const _variant_t & par_value ) {
+    HRESULT _hr = put_Property(par_name, par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT IComposerDestination::BeginSending ( struct ISequentialStream * * par_stream, ComposerDestinationFlags * par_flags ) {
+    HRESULT _hr = raw_BeginSending(par_stream, par_flags);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IComposerDestination::EndSending ( ) {
+    HRESULT _hr = raw_EndSending();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDataEncoder wrapper method implementations
+//
+
+inline _bstr_t IDataEncoder::GetEncoding ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Encoding(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IDataEncoder::SizeToEncode ( void * par_From, unsigned long par_FromSize, unsigned long * par_To ) {
+    HRESULT _hr = raw_SizeToEncode(par_From, par_FromSize, par_To);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataEncoder::SizeToDecode ( void * par_From, unsigned long par_FromSize, unsigned long * par_To ) {
+    HRESULT _hr = raw_SizeToDecode(par_From, par_FromSize, par_To);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataEncoder::Encode ( void * par_From, unsigned long par_FromSize, void * par_To, unsigned long * par_ToSize ) {
+    HRESULT _hr = raw_Encode(par_From, par_FromSize, par_To, par_ToSize);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataEncoder::Decode ( void * par_From, unsigned long par_FromSize, void * par_To, unsigned long * par_ToSize ) {
+    HRESULT _hr = raw_Decode(par_From, par_FromSize, par_To, par_ToSize);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataEncoder::SizeToEncodeStream ( struct IStream * par_From, unsigned long * par_To ) {
+    HRESULT _hr = raw_SizeToEncodeStream(par_From, par_To);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataEncoder::SizeToDecodeStream ( struct IStream * par_From, unsigned long * par_To ) {
+    HRESULT _hr = raw_SizeToDecodeStream(par_From, par_To);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataEncoder::EncodeStream ( struct IStream * par_Form, struct IStream * par_To ) {
+    HRESULT _hr = raw_EncodeStream(par_Form, par_To);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDataEncoder::DecodeStream ( struct IStream * par_From, struct IStream * par_To ) {
+    HRESULT _hr = raw_DecodeStream(par_From, par_To);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IDataEncoderFactory wrapper method implementations
+//
+
+inline HRESULT IDataEncoderFactory::AddDataEncoder ( _bstr_t par_encoding, struct IDataEncoder * par_encoder ) {
+    HRESULT _hr = raw_AddDataEncoder(par_encoding, par_encoder);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IDataEncoderPtr IDataEncoderFactory::GetDataEncoder ( _bstr_t par_encoding ) {
+    struct IDataEncoder * _result = 0;
+    HRESULT _hr = raw_GetDataEncoder(par_encoding, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDataEncoderPtr(_result, false);
+}
+
+//
+// interface IFileAttachment wrapper method implementations
+//
+
+inline _bstr_t IFileAttachment::GetFileName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FileName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IFileAttachment::PutFileName ( _bstr_t par_value ) {
+    HRESULT _hr = put_FileName(par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void IFileAttachment::PutDeleteAfterSending ( VARIANT_BOOL par_value ) {
+    HRESULT _hr = put_DeleteAfterSending(par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL IFileAttachment::GetDeleteAfterSending ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_DeleteAfterSending(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IStringAttachment wrapper method implementations
+//
+
+inline _bstr_t IStringAttachment::GetString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_String(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IStringAttachment::PutString ( _bstr_t par_value ) {
+    HRESULT _hr = put_String(par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t IStringAttachment::GetContentCharacterSet ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ContentCharacterSet(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void IStringAttachment::PutContentCharacterSet ( _bstr_t par_value ) {
+    HRESULT _hr = put_ContentCharacterSet(par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IByteArrayAttachment wrapper method implementations
+//
+
+inline _variant_t IByteArrayAttachment::GetArray ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Array(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void IByteArrayAttachment::PutArray ( const _variant_t & par_value ) {
+    HRESULT _hr = put_Array(par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IStreamAttachment wrapper method implementations
+//
+
+inline IStreamPtr IStreamAttachment::GetStream ( ) {
+    struct IStream * _result = 0;
+    HRESULT _hr = get_Stream(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStreamPtr(_result, false);
+}
+
+inline void IStreamAttachment::PutRefStream ( struct IStream * par_value ) {
+    HRESULT _hr = putref_Stream(par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ISentAttachments wrapper method implementations
+//
+
+inline long ISentAttachments::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IAttachmentPtr ISentAttachments::GetItem ( long par_index ) {
+    struct IAttachment * _result = 0;
+    HRESULT _hr = get_Item(par_index, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IAttachmentPtr(_result, false);
+}
+
+inline HRESULT ISentAttachments::Add ( struct IAttachment * par_att ) {
+    HRESULT _hr = raw_Add(par_att);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IGetComposerDestination wrapper method implementations
+//
+
+inline IComposerDestinationPtr IGetComposerDestination::GetComposerDestination ( ) {
+    struct IComposerDestination * _result = 0;
+    HRESULT _hr = get_ComposerDestination(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IComposerDestinationPtr(_result, false);
+}
+
+//
+// interface IDimeComposer wrapper method implementations
+//
+
+inline HRESULT IDimeComposer::Initialize ( _bstr_t par_tempFolder, long par_maxSize, long par_chunkSize ) {
+    HRESULT _hr = raw_Initialize(par_tempFolder, par_maxSize, par_chunkSize);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IGetParserSource wrapper method implementations
+//
+
+inline IParserSourcePtr IGetParserSource::GetParserSource ( ) {
+    struct IParserSource * _result = 0;
+    HRESULT _hr = get_ParserSource(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IParserSourcePtr(_result, false);
+}
+
+//
+// interface IDimeParser wrapper method implementations
+//
+
+inline HRESULT IDimeParser::Initialize ( _bstr_t par_tempFolder, long par_maxSize ) {
+    HRESULT _hr = raw_Initialize(par_tempFolder, par_maxSize);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISoapClient wrapper method implementations
+//
+
+inline HRESULT ISoapClient::MSSoapInit ( _bstr_t par_WSDLFile, _bstr_t par_ServiceName, _bstr_t par_Port, _bstr_t par_WSMLFile ) {
+    HRESULT _hr = raw_MSSoapInit(par_WSDLFile, par_ServiceName, par_Port, par_WSMLFile);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t ISoapClient::GetFaultCode ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultCode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapClient::GetFaultString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapClient::GetFaultActor ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultActor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapClient::GetDetail ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Detail(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _variant_t ISoapClient::GetClientProperty ( _bstr_t par_PropertyName ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_ClientProperty(par_PropertyName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISoapClient::PutRefHeaderHandler ( IDispatch * _arg1 ) {
+    HRESULT _hr = putref_HeaderHandler(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void ISoapClient::PutClientProperty ( _bstr_t par_PropertyName, const _variant_t & par_PropertyValue ) {
+    HRESULT _hr = put_ClientProperty(par_PropertyName, par_PropertyValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t ISoapClient::GetConnectorProperty ( _bstr_t par_PropertyName ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_ConnectorProperty(par_PropertyName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISoapClient::PutConnectorProperty ( _bstr_t par_PropertyName, const _variant_t & par_PropertyValue ) {
+    HRESULT _hr = put_ConnectorProperty(par_PropertyName, par_PropertyValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT ISoapClient::MSSoapInit2 ( const _variant_t & par_WSDLFile, const _variant_t & par_WSMLFile, _bstr_t par_ServiceName, _bstr_t par_Port, _bstr_t par_Namespace ) {
+    HRESULT _hr = raw_MSSoapInit2(par_WSDLFile, par_WSMLFile, par_ServiceName, par_Port, par_Namespace);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t ISoapClient::GetFaultCodeNamespace ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultCodeNamespace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISoapClient::PutRefClientProperty ( _bstr_t par_PropertyName, const _variant_t & par_PropertyValue ) {
+    HRESULT _hr = putref_ClientProperty(par_PropertyName, par_PropertyValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ISoapServer wrapper method implementations
+//
+
+inline HRESULT ISoapServer::Init ( _bstr_t par_WSDLFile, _bstr_t par_WSMLFile ) {
+    HRESULT _hr = raw_Init(par_WSDLFile, par_WSMLFile);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapServer::SoapInvoke ( const _variant_t & par_Input, IUnknown * par_OutputStream, _bstr_t par_soapAction ) {
+    HRESULT _hr = raw_SoapInvoke(par_Input, par_OutputStream, par_soapAction);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapServer::SoapInvokeEx ( const _variant_t & par_Input, IUnknown * par_OutputStream, IUnknown * par_ServerObject, _bstr_t par_soapAction, _bstr_t par_ContentType ) {
+    HRESULT _hr = raw_SoapInvokeEx(par_Input, par_OutputStream, par_ServerObject, par_soapAction, par_ContentType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline void ISoapServer::PutXmlVersion ( _bstr_t _arg1 ) {
+    HRESULT _hr = put_XmlVersion(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface ISoapError wrapper method implementations
+//
+
+inline _bstr_t ISoapError::GetFaultCode ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultCode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapError::GetFaultString ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapError::GetFaultActor ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultActor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapError::GetDetail ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Detail(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapError::GetFaultCodeNamespace ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_FaultCodeNamespace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface ISoapErrorInfo wrapper method implementations
+//
+
+inline HRESULT ISoapErrorInfo::SetActor ( _bstr_t par_Actor ) {
+    HRESULT _hr = raw_SetActor(par_Actor);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::SetFaultCode ( _bstr_t par_FaultCode ) {
+    HRESULT _hr = raw_SetFaultCode(par_FaultCode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::AddErrorEntry ( _bstr_t par_Description, _bstr_t par_Component, HRESULT par_ErrorCode ) {
+    HRESULT _hr = raw_AddErrorEntry(par_Description, par_Component, par_ErrorCode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::AddSoapError ( _bstr_t par_FaultString, _bstr_t par_FaultActor, _bstr_t par_Detail, _bstr_t par_FaultCode, _bstr_t par_Namespace ) {
+    HRESULT _hr = raw_AddSoapError(par_FaultString, par_FaultActor, par_Detail, par_FaultCode, par_Namespace);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::AddErrorInfo ( _bstr_t par_Description, _bstr_t par_source, _bstr_t par_Helpfile, unsigned long par_HelpContext, HRESULT par_hrFromErrorInfo ) {
+    HRESULT _hr = raw_AddErrorInfo(par_Description, par_source, par_Helpfile, par_HelpContext, par_hrFromErrorInfo);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::LoadFault ( struct MSXML2::IXMLDOMDocument * par_Document ) {
+    HRESULT _hr = raw_LoadFault(par_Document);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::GetHresult ( HRESULT * par_HR ) {
+    HRESULT _hr = raw_GetHresult(par_HR);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::GetErrorEntry ( unsigned long par_EntryID, BSTR * par_Description, BSTR * par_Component, HRESULT * par_HR ) {
+    HRESULT _hr = raw_GetErrorEntry(par_EntryID, par_Description, par_Component, par_HR);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::GetActor ( BSTR * par_Actor ) {
+    HRESULT _hr = raw_GetActor(par_Actor);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::GetErrorInfo ( BSTR * par_Description, BSTR * par_source, BSTR * par_Helpfile, unsigned long * par_HelpContext, HRESULT * par_hrFromErrorInfo ) {
+    HRESULT _hr = raw_GetErrorInfo(par_Description, par_source, par_Helpfile, par_HelpContext, par_hrFromErrorInfo);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapErrorInfo::GetSoapError ( BSTR * par_FaultString, BSTR * par_FaultActor, BSTR * par_Detail, BSTR * par_FaultCode, BSTR * par_Namespace ) {
+    HRESULT _hr = raw_GetSoapError(par_FaultString, par_FaultActor, par_Detail, par_FaultCode, par_Namespace);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IGCTMObjectFactory wrapper method implementations
+//
+
+inline IDispatchPtr IGCTMObjectFactory::CreateObject ( struct MSXML2::IXMLDOMNode * par_WSMLNode ) {
+    IDispatch * _result = 0;
+    HRESULT _hr = raw_CreateObject(par_WSMLNode, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IDispatchPtr(_result, false);
+}
+
+//
+// interface ISoapReader wrapper method implementations
+//
+
+inline VARIANT_BOOL ISoapReader::Load ( const _variant_t & par_source, _bstr_t par_soapAction ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_Load(par_source, par_soapAction, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISoapReader::LoadWithParser ( const _variant_t & par_source, struct IMessageParser * par_parser, _bstr_t par_soapAction ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_LoadWithParser(par_source, par_parser, par_soapAction, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISoapReader::LoadXml ( _bstr_t par_xml ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_LoadXml(par_xml, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline MSXML2::IXMLDOMDocumentPtr ISoapReader::GetDom ( ) {
+    struct MSXML2::IXMLDOMDocument * _result = 0;
+    HRESULT _hr = get_Dom(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMDocumentPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetEnvelope ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_Envelope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetBody ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_Body(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetHeader ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_Header(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetFault ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_Fault(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetFaultString ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_FaultString(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetFaultCode ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_FaultCode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetFaultActor ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_FaultActor(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetFaultDetail ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_FaultDetail(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetHeaderEntry ( _bstr_t par_LocalName, _bstr_t par_NamespaceURI ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_HeaderEntry(par_LocalName, par_NamespaceURI, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMNodeListPtr ISoapReader::GetMustUnderstandHeaderEntries ( ) {
+    struct MSXML2::IXMLDOMNodeList * _result = 0;
+    HRESULT _hr = get_MustUnderstandHeaderEntries(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMNodeListPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMNodeListPtr ISoapReader::GetHeaderEntries ( ) {
+    struct MSXML2::IXMLDOMNodeList * _result = 0;
+    HRESULT _hr = get_HeaderEntries(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMNodeListPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMNodeListPtr ISoapReader::GetBodyEntries ( ) {
+    struct MSXML2::IXMLDOMNodeList * _result = 0;
+    HRESULT _hr = get_BodyEntries(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMNodeListPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetBodyEntry ( _bstr_t par_LocalName, _bstr_t par_NamespaceURI ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_BodyEntry(par_LocalName, par_NamespaceURI, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetRpcStruct ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_RpcStruct(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetRpcParameter ( _bstr_t par_LocalName, _bstr_t par_NamespaceURI ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_RpcParameter(par_LocalName, par_NamespaceURI, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMElementPtr ISoapReader::GetRpcResult ( ) {
+    struct MSXML2::IXMLDOMElement * _result = 0;
+    HRESULT _hr = get_RpcResult(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMElementPtr(_result, false);
+}
+
+inline _bstr_t ISoapReader::GetSoapAction ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SoapAction(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _variant_t ISoapReader::GetContextItem ( _bstr_t par_key ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetContextItem(par_key, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT ISoapReader::SetContextItem ( _bstr_t par_key, const _variant_t & par_value ) {
+    HRESULT _hr = raw_SetContextItem(par_key, par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IReceivedAttachmentsPtr ISoapReader::GetAttachments ( ) {
+    struct IReceivedAttachments * _result = 0;
+    HRESULT _hr = get_Attachments(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReceivedAttachmentsPtr(_result, false);
+}
+
+inline MSXML2::IXMLDOMNodePtr ISoapReader::GetReferencedNode ( struct MSXML2::IXMLDOMNode * par_context ) {
+    struct MSXML2::IXMLDOMNode * _result = 0;
+    HRESULT _hr = raw_GetReferencedNode(par_context, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMNodePtr(_result, false);
+}
+
+inline IReceivedAttachmentPtr ISoapReader::GetReferencedAttachment ( struct MSXML2::IXMLDOMNode * par_context ) {
+    struct IReceivedAttachment * _result = 0;
+    HRESULT _hr = raw_GetReferencedAttachment(par_context, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReceivedAttachmentPtr(_result, false);
+}
+
+inline VARIANT_BOOL ISoapReader::IsAttachmentReference ( struct MSXML2::IXMLDOMNode * par_context ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsAttachmentReference(par_context, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL ISoapReader::IsNodeReference ( struct MSXML2::IXMLDOMNode * par_context ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsNodeReference(par_context, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline IMessageParserPtr ISoapReader::GetParser ( ) {
+    struct IMessageParser * _result = 0;
+    HRESULT _hr = get_Parser(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMessageParserPtr(_result, false);
+}
+
+inline void ISoapReader::PutXmlVersion ( _bstr_t _arg1 ) {
+    HRESULT _hr = put_XmlVersion(_arg1);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IMessageParser wrapper method implementations
+//
+
+inline HRESULT IMessageParser::Initialize ( struct MSXML2::IXMLDOMNode * par_binding, struct MSXML2::IXMLDOMNode * par_composer, _bstr_t par_tempFolder, long par_maxSize ) {
+    HRESULT _hr = raw_Initialize(par_binding, par_composer, par_tempFolder, par_maxSize);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IReceivedAttachmentsPtr IMessageParser::LoadMessage ( struct IParserSource * par_source, struct ISequentialStream * par_envelope ) {
+    struct IReceivedAttachments * _result = 0;
+    HRESULT _hr = raw_LoadMessage(par_source, par_envelope, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IReceivedAttachmentsPtr(_result, false);
+}
+
+inline HRESULT IMessageParser::LoadSpecialTypeMapper ( struct ISoapMapper * par_soapmapper, struct ISoapReader * par_soapreader, struct MSXML2::IXMLDOMNode * par_context ) {
+    HRESULT _hr = raw_LoadSpecialTypeMapper(par_soapmapper, par_soapreader, par_context);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISoapMapper wrapper method implementations
+//
+
+inline _bstr_t ISoapMapper::GetElementName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ElementName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapMapper::GetPartName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PartName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t ISoapMapper::GetElementType ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ElementType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline smIsInputEnum ISoapMapper::GetIsInput ( ) {
+    smIsInputEnum _result;
+    HRESULT _hr = get_IsInput(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _variant_t ISoapMapper::GetComValue ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_ComValue(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISoapMapper::PutComValue ( const _variant_t & par_VarOut ) {
+    HRESULT _hr = put_ComValue(par_VarOut);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long ISoapMapper::GetCallIndex ( ) {
+    long _result = 0;
+    HRESULT _hr = get_CallIndex(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline long ISoapMapper::GetParameterOrder ( ) {
+    long _result = 0;
+    HRESULT _hr = get_ParameterOrder(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t ISoapMapper::GetXmlNamespace ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_XmlNamespace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline long ISoapMapper::GetVariantType ( ) {
+    long _result = 0;
+    HRESULT _hr = get_VariantType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enXSDType ISoapMapper::GetXsdType ( ) {
+    enXSDType _result;
+    HRESULT _hr = get_XsdType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enSpecialType ISoapMapper::GetSpecialType ( ) {
+    enSpecialType _result;
+    HRESULT _hr = get_SpecialType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT ISoapMapper::Save ( struct ISoapSerializer * par_ISoapSerializer, _bstr_t par_encoding, enEncodingStyle par_enSaveStyle, _bstr_t par_MessageNamespace, long par_flags ) {
+    HRESULT _hr = raw_Save(par_ISoapSerializer, par_encoding, par_enSaveStyle, par_MessageNamespace, par_flags);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapMapper::Load ( struct ISoapReader * par_ISoapReader, struct MSXML2::IXMLDOMNode * par_Node, _bstr_t par_encoding, enEncodingStyle par_enStyle, _bstr_t par_MessageNamespace, long par_flags ) {
+    HRESULT _hr = raw_Load(par_ISoapReader, par_Node, par_encoding, par_enStyle, par_MessageNamespace, par_flags);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline MSXML2::IXMLDOMNodePtr ISoapMapper::GetSchemaNode ( ) {
+    struct MSXML2::IXMLDOMNode * _result = 0;
+    HRESULT _hr = get_SchemaNode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMNodePtr(_result, false);
+}
+
+inline _bstr_t ISoapMapper::GetSchemaNamespace ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SchemaNamespace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void ISoapMapper::PutPartName ( _bstr_t par_PartName ) {
+    HRESULT _hr = put_PartName(par_PartName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void ISoapMapper::PutSpecialType ( enSpecialType par_SpecialType ) {
+    HRESULT _hr = put_SpecialType(par_SpecialType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline void ISoapMapper::PutCallIndex ( long par_CallIndex ) {
+    HRESULT _hr = put_CallIndex(par_CallIndex);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface IEnumSoapMappers wrapper method implementations
+//
+
+inline HRESULT IEnumSoapMappers::Next ( long par_celt, struct ISoapMapper * * par_soapmapper, long * par_Fetched ) {
+    HRESULT _hr = raw_Next(par_celt, par_soapmapper, par_Fetched);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumSoapMappers::Skip ( long par_celt ) {
+    HRESULT _hr = raw_Skip(par_celt);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumSoapMappers::Reset ( ) {
+    HRESULT _hr = raw_Reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumSoapMappers::Clone ( struct IEnumSoapMappers * * par_enum ) {
+    HRESULT _hr = raw_Clone(par_enum);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISoapSerializer wrapper method implementations
+//
+
+inline HRESULT ISoapSerializer::Init ( const _variant_t & par_output ) {
+    HRESULT _hr = raw_Init(par_output);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::InitWithComposer ( const _variant_t & par_output, struct IMessageComposer * par_composer ) {
+    HRESULT _hr = raw_InitWithComposer(par_output, par_composer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::StartEnvelope ( _bstr_t par_Prefix, _bstr_t par_enc_style_uri, _bstr_t par_encoding ) {
+    HRESULT _hr = raw_StartEnvelope(par_Prefix, par_enc_style_uri, par_encoding);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::EndEnvelope ( ) {
+    HRESULT _hr = raw_EndEnvelope();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::StartHeader ( _bstr_t par_enc_style_uri ) {
+    HRESULT _hr = raw_StartHeader(par_enc_style_uri);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::StartHeaderElement ( _bstr_t par_name, _bstr_t par_ns_uri, int par_mustUnderstand, _bstr_t par_actor_uri, _bstr_t par_enc_style_uri, _bstr_t par_Prefix ) {
+    HRESULT _hr = raw_StartHeaderElement(par_name, par_ns_uri, par_mustUnderstand, par_actor_uri, par_enc_style_uri, par_Prefix);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::EndHeaderElement ( ) {
+    HRESULT _hr = raw_EndHeaderElement();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::EndHeader ( ) {
+    HRESULT _hr = raw_EndHeader();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::StartBody ( _bstr_t par_enc_style_uri ) {
+    HRESULT _hr = raw_StartBody(par_enc_style_uri);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::EndBody ( ) {
+    HRESULT _hr = raw_EndBody();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::StartElement ( _bstr_t par_name, _bstr_t par_ns_uri, _bstr_t par_enc_style_uri, _bstr_t par_Prefix ) {
+    HRESULT _hr = raw_StartElement(par_name, par_ns_uri, par_enc_style_uri, par_Prefix);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::EndElement ( ) {
+    HRESULT _hr = raw_EndElement();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::SoapAttribute ( _bstr_t par_name, _bstr_t par_ns_uri, _bstr_t par_value, _bstr_t par_Prefix ) {
+    HRESULT _hr = raw_SoapAttribute(par_name, par_ns_uri, par_value, par_Prefix);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::SoapNamespace ( _bstr_t par_Prefix, _bstr_t par_ns_uri ) {
+    HRESULT _hr = raw_SoapNamespace(par_Prefix, par_ns_uri);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::SoapDefaultNamespace ( _bstr_t par_ns_uri ) {
+    HRESULT _hr = raw_SoapDefaultNamespace(par_ns_uri);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::WriteString ( _bstr_t par_string ) {
+    HRESULT _hr = raw_WriteString(par_string);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::WriteBuffer ( long par_len, unsigned char * par_buffer ) {
+    HRESULT _hr = raw_WriteBuffer(par_len, par_buffer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::StartFault ( _bstr_t par_FaultCode, _bstr_t par_FaultString, _bstr_t par_FaultActor, _bstr_t par_FaultCodeNS ) {
+    HRESULT _hr = raw_StartFault(par_FaultCode, par_FaultString, par_FaultActor, par_FaultCodeNS);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::StartFaultDetail ( _bstr_t par_enc_style_uri ) {
+    HRESULT _hr = raw_StartFaultDetail(par_enc_style_uri);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::EndFaultDetail ( ) {
+    HRESULT _hr = raw_EndFaultDetail();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::EndFault ( ) {
+    HRESULT _hr = raw_EndFault();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::Reset ( ) {
+    HRESULT _hr = raw_Reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::WriteXml ( _bstr_t par_string ) {
+    HRESULT _hr = raw_WriteXml(par_string);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t ISoapSerializer::GetPrefixForNamespace ( _bstr_t par_ns_string ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_GetPrefixForNamespace(par_ns_string, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT ISoapSerializer::EndHrefedElement ( ) {
+    HRESULT _hr = raw_EndHrefedElement();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t ISoapSerializer::StartHrefedElement ( _bstr_t par_name, _bstr_t par_ns_uri, _bstr_t par_enc_style_uri, _bstr_t par_Prefix, enElementLocation par_location, _bstr_t par_hrefidinput ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_StartHrefedElement(par_name, par_ns_uri, par_enc_style_uri, par_Prefix, par_location, par_hrefidinput, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline VARIANT_BOOL ISoapSerializer::GetSoapFault ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_SoapFault(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _variant_t ISoapSerializer::GetContextItem ( _bstr_t par_key ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_GetContextItem(par_key, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT ISoapSerializer::SetContextItem ( _bstr_t par_key, const _variant_t & par_value ) {
+    HRESULT _hr = raw_SetContextItem(par_key, par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::AddAttachment ( struct IAttachment * par_att ) {
+    HRESULT _hr = raw_AddAttachment(par_att);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::AddAttachmentAndReference ( struct IAttachment * par_att ) {
+    HRESULT _hr = raw_AddAttachmentAndReference(par_att);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapSerializer::Finished ( ) {
+    HRESULT _hr = raw_Finished();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline IMessageComposerPtr ISoapSerializer::GetComposer ( ) {
+    struct IMessageComposer * _result = 0;
+    HRESULT _hr = get_Composer(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMessageComposerPtr(_result, false);
+}
+
+inline _bstr_t ISoapSerializer::CreateHRefId ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_CreateHRefId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+//
+// interface IMessageComposer wrapper method implementations
+//
+
+inline HRESULT IMessageComposer::StartComposing ( struct IComposerDestination * par_destination ) {
+    HRESULT _hr = raw_StartComposing(par_destination);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMessageComposer::EndComposing ( ) {
+    HRESULT _hr = raw_EndComposing();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISequentialStreamPtr IMessageComposer::StartEnvelope ( _bstr_t par_charSet ) {
+    struct ISequentialStream * _result = 0;
+    HRESULT _hr = raw_StartEnvelope(par_charSet, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISequentialStreamPtr(_result, false);
+}
+
+inline HRESULT IMessageComposer::EndEnvelope ( ) {
+    HRESULT _hr = raw_EndEnvelope();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _bstr_t IMessageComposer::AddAttachment ( struct IAttachment * par_att ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_AddAttachment(par_att, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IMessageComposer::SaveSpecialTypeMapper ( struct ISoapMapper * par_ISoapMapper, struct ISoapSerializer * par_ISoapSerializer ) {
+    HRESULT _hr = raw_SaveSpecialTypeMapper(par_ISoapMapper, par_ISoapSerializer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IHeaderHandler wrapper method implementations
+//
+
+inline VARIANT_BOOL IHeaderHandler::WillWriteHeaders ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_WillWriteHeaders(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT IHeaderHandler::WriteHeaders ( struct ISoapSerializer * par_ISoapSerializer, IDispatch * par_Object ) {
+    HRESULT _hr = raw_WriteHeaders(par_ISoapSerializer, par_Object);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL IHeaderHandler::ReadHeader ( struct ISoapReader * par_Reader, struct MSXML2::IXMLDOMNode * par_HeaderNode, IDispatch * par_Object ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ReadHeader(par_Reader, par_HeaderNode, par_Object, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IWSDLMessage wrapper method implementations
+//
+
+inline enEncodingStyle IWSDLMessage::GetEncodingStyle ( ) {
+    enEncodingStyle _result;
+    HRESULT _hr = get_EncodingStyle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t IWSDLMessage::GetEncodingNamespace ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_EncodingNamespace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLMessage::GetMessageName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_MessageName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLMessage::GetMessageNamespace ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_MessageNamespace(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IEnumSoapMappersPtr IWSDLMessage::GetMessageParts ( ) {
+    struct IEnumSoapMappers * _result = 0;
+    HRESULT _hr = get_MessageParts(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IEnumSoapMappersPtr(_result, false);
+}
+
+inline IMessageComposerPtr IWSDLMessage::GetComposer ( _bstr_t par_tempFolder, long par_maxSize ) {
+    struct IMessageComposer * _result = 0;
+    HRESULT _hr = raw_GetComposer(par_tempFolder, par_maxSize, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMessageComposerPtr(_result, false);
+}
+
+inline IMessageParserPtr IWSDLMessage::GetParser ( _bstr_t par_tempFolder, long par_maxSize ) {
+    struct IMessageParser * _result = 0;
+    HRESULT _hr = raw_GetParser(par_tempFolder, par_maxSize, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IMessageParserPtr(_result, false);
+}
+
+inline HRESULT IWSDLMessage::AddAttachmentCollection ( _bstr_t par_bstrPartName, long par_lserverSideCallIndex ) {
+    HRESULT _hr = raw_AddAttachmentCollection(par_bstrPartName, par_lserverSideCallIndex);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IWSDLOperation wrapper method implementations
+//
+
+inline _bstr_t IWSDLOperation::GetDocumentation ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Documentation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLOperation::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLOperation::GetSoapAction ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_SoapAction(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLOperation::GetObjectProgId ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ObjectProgId(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLOperation::GetObjectMethod ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ObjectMethod(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline IWSDLMessagePtr IWSDLOperation::GetInputMessage ( ) {
+    struct IWSDLMessage * _result = 0;
+    HRESULT _hr = get_InputMessage(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IWSDLMessagePtr(_result, false);
+}
+
+inline IWSDLMessagePtr IWSDLOperation::GetOutputMessage ( ) {
+    struct IWSDLMessage * _result = 0;
+    HRESULT _hr = get_OutputMessage(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IWSDLMessagePtr(_result, false);
+}
+
+inline _bstr_t IWSDLOperation::GetPreferredEncoding ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_PreferredEncoding(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IWSDLOperation::GetOperationParts ( struct IEnumSoapMappers * * par_IEnumSoapMappers ) {
+    HRESULT _hr = raw_GetOperationParts(par_IEnumSoapMappers);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLOperation::ExecuteOperation ( struct ISoapReader * par_ISoapReader, struct ISoapSerializer * par_ISoapSerializer ) {
+    HRESULT _hr = raw_ExecuteOperation(par_ISoapReader, par_ISoapSerializer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLOperation::ExecuteOperationEx ( struct ISoapReader * par_ISoapReader, struct ISoapSerializer * par_ISoapSerializer, IUnknown * par_ServerObject ) {
+    HRESULT _hr = raw_ExecuteOperationEx(par_ISoapReader, par_ISoapSerializer, par_ServerObject);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLOperation::Save ( struct ISoapSerializer * par_ISoapSerializer, VARIANT_BOOL par_Input ) {
+    HRESULT _hr = raw_Save(par_ISoapSerializer, par_Input);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLOperation::Load ( struct ISoapReader * par_ISoapReader, VARIANT_BOOL par_Input ) {
+    HRESULT _hr = raw_Load(par_ISoapReader, par_Input);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline enOperationType IWSDLOperation::Gettype ( ) {
+    enOperationType _result;
+    HRESULT _hr = get_type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IEnumWSDLOperations wrapper method implementations
+//
+
+inline HRESULT IEnumWSDLOperations::Next ( long par_celt, struct IWSDLOperation * * par_WSDLOperation, long * par_Fetched ) {
+    HRESULT _hr = raw_Next(par_celt, par_WSDLOperation, par_Fetched);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLOperations::Skip ( long par_celt ) {
+    HRESULT _hr = raw_Skip(par_celt);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLOperations::Reset ( ) {
+    HRESULT _hr = raw_Reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLOperations::Clone ( struct IEnumWSDLOperations * * par_enum ) {
+    HRESULT _hr = raw_Clone(par_enum);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLOperations::Find ( _bstr_t par_OperationToFind, struct IWSDLOperation * * par_IWSDLOperation ) {
+    HRESULT _hr = raw_Find(par_OperationToFind, par_IWSDLOperation);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLOperations::Size ( long * par_Size ) {
+    HRESULT _hr = raw_Size(par_Size);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IWSDLPort wrapper method implementations
+//
+
+inline _bstr_t IWSDLPort::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLPort::GetAddress ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Address(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLPort::GetBindStyle ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_BindStyle(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLPort::GetTransport ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Transport(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLPort::GetDocumentation ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Documentation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IWSDLPort::GetSoapOperations ( struct IEnumWSDLOperations * * par_IWSDLOperations ) {
+    HRESULT _hr = raw_GetSoapOperations(par_IWSDLOperations);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IEnumWSDLPorts wrapper method implementations
+//
+
+inline HRESULT IEnumWSDLPorts::Next ( long par_celt, struct IWSDLPort * * WSDLPort, long * par_Fetched ) {
+    HRESULT _hr = raw_Next(par_celt, WSDLPort, par_Fetched);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLPorts::Skip ( long par_celt ) {
+    HRESULT _hr = raw_Skip(par_celt);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLPorts::Reset ( ) {
+    HRESULT _hr = raw_Reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLPorts::Clone ( struct IEnumWSDLPorts * * par_enum ) {
+    HRESULT _hr = raw_Clone(par_enum);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLPorts::Find ( _bstr_t par_PortToFind, struct IWSDLPort * * par_IWSDLPort ) {
+    HRESULT _hr = raw_Find(par_PortToFind, par_IWSDLPort);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IWSDLService wrapper method implementations
+//
+
+inline _bstr_t IWSDLService::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline _bstr_t IWSDLService::GetDocumentation ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Documentation(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IWSDLService::GetSoapPorts ( struct IEnumWSDLPorts * * par_IWSDLPorts ) {
+    HRESULT _hr = raw_GetSoapPorts(par_IWSDLPorts);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IEnumWSDLService wrapper method implementations
+//
+
+inline HRESULT IEnumWSDLService::Next ( long par_celt, struct IWSDLService * * par_IWSDLService, long * par_Fetched ) {
+    HRESULT _hr = raw_Next(par_celt, par_IWSDLService, par_Fetched);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLService::Skip ( long par_celt ) {
+    HRESULT _hr = raw_Skip(par_celt);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLService::Reset ( ) {
+    HRESULT _hr = raw_Reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLService::Clone ( struct IEnumWSDLService * * par_enum ) {
+    HRESULT _hr = raw_Clone(par_enum);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IEnumWSDLService::Find ( _bstr_t par_ServiceToFind, struct IWSDLService * * par_WSDLService ) {
+    HRESULT _hr = raw_Find(par_ServiceToFind, par_WSDLService);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface IWSDLBinding wrapper method implementations
+//
+
+inline HRESULT IWSDLBinding::Initialize ( struct MSXML2::IXMLDOMNode * pWSMLBindingNode, BSTR * pbstrNamespace ) {
+    HRESULT _hr = raw_Initialize(pWSMLBindingNode, pbstrNamespace);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLBinding::ParseBinding ( struct MSXML2::IXMLDOMNode * pWSDLInputOutputNode, struct MSXML2::IXMLDOMNode * * ppSoapBodyNode ) {
+    HRESULT _hr = raw_ParseBinding(pWSDLInputOutputNode, ppSoapBodyNode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLBinding::ApplyBinding ( struct IWSDLMessage * pWSDLMessage, struct MSXML2::IXMLDOMNode * pWSDLInputOutputNode, struct MSXML2::IXMLDOMNode * pWSMLOperationNode ) {
+    HRESULT _hr = raw_ApplyBinding(pWSDLMessage, pWSDLInputOutputNode, pWSMLOperationNode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLBinding::GetComposer ( _bstr_t bstrTemporaryAttachmentFolder, long lMaxAttachmentSize, long lReserved, struct IMessageComposer * * ppComposer ) {
+    HRESULT _hr = raw_GetComposer(bstrTemporaryAttachmentFolder, lMaxAttachmentSize, lReserved, ppComposer);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLBinding::GetParser ( _bstr_t bstrTemporaryAttachmentFolder, long lMaxAttachmentSize, struct IMessageParser * * ppParser ) {
+    HRESULT _hr = raw_GetParser(bstrTemporaryAttachmentFolder, lMaxAttachmentSize, ppParser);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISoapConnector wrapper method implementations
+//
+
+inline IStreamPtr ISoapConnector::GetInputStream ( ) {
+    struct IStream * _result = 0;
+    HRESULT _hr = get_InputStream(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStreamPtr(_result, false);
+}
+
+inline IStreamPtr ISoapConnector::GetOutputStream ( ) {
+    struct IStream * _result = 0;
+    HRESULT _hr = get_OutputStream(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IStreamPtr(_result, false);
+}
+
+inline _variant_t ISoapConnector::GetProperty ( _bstr_t par_name ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Property(par_name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void ISoapConnector::PutProperty ( _bstr_t par_name, const _variant_t & par_value ) {
+    HRESULT _hr = put_Property(par_name, par_value);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline HRESULT ISoapConnector::ConnectWSDL ( struct IWSDLPort * par_Port ) {
+    HRESULT _hr = raw_ConnectWSDL(par_Port);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapConnector::BeginMessageWSDL ( struct IWSDLOperation * par_operation ) {
+    HRESULT _hr = raw_BeginMessageWSDL(par_operation);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapConnector::EndMessage ( ) {
+    HRESULT _hr = raw_EndMessage();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapConnector::Reset ( ) {
+    HRESULT _hr = raw_Reset();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapConnector::Connect ( ) {
+    HRESULT _hr = raw_Connect();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapConnector::BeginMessage ( ) {
+    HRESULT _hr = raw_BeginMessage();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+//
+// interface ISoapConnectorFactory wrapper method implementations
+//
+
+inline ISoapConnectorPtr ISoapConnectorFactory::CreatePortConnector ( struct IWSDLPort * par_Port ) {
+    struct ISoapConnector * _result = 0;
+    HRESULT _hr = raw_CreatePortConnector(par_Port, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISoapConnectorPtr(_result, false);
+}
+
+//
+// interface ISoapTypeMapperFactory wrapper method implementations
+//
+
+inline HRESULT ISoapTypeMapperFactory::AddSchema ( struct MSXML2::IXMLDOMNode * par_SchemaNode ) {
+    HRESULT _hr = raw_AddSchema(par_SchemaNode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISoapTypeMapperPtr ISoapTypeMapperFactory::GetElementMapperByName ( _bstr_t par_ElementName, _bstr_t par_ElementNamespace ) {
+    struct ISoapTypeMapper * _result = 0;
+    HRESULT _hr = raw_GetElementMapperByName(par_ElementName, par_ElementNamespace, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISoapTypeMapperPtr(_result, false);
+}
+
+inline ISoapTypeMapperPtr ISoapTypeMapperFactory::GetTypeMapperByName ( _bstr_t par_TypeName, _bstr_t par_TypeNamespace ) {
+    struct ISoapTypeMapper * _result = 0;
+    HRESULT _hr = raw_GetTypeMapperByName(par_TypeName, par_TypeNamespace, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISoapTypeMapperPtr(_result, false);
+}
+
+inline ISoapTypeMapperPtr ISoapTypeMapperFactory::GetElementMapper ( struct MSXML2::IXMLDOMNode * par_ElementNode ) {
+    struct ISoapTypeMapper * _result = 0;
+    HRESULT _hr = raw_GetElementMapper(par_ElementNode, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISoapTypeMapperPtr(_result, false);
+}
+
+inline ISoapTypeMapperPtr ISoapTypeMapperFactory::GetTypeMapper ( struct MSXML2::IXMLDOMNode * par_TypeNode ) {
+    struct ISoapTypeMapper * _result = 0;
+    HRESULT _hr = raw_GetTypeMapper(par_TypeNode, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISoapTypeMapperPtr(_result, false);
+}
+
+inline HRESULT ISoapTypeMapperFactory::AddType ( _bstr_t par_TypeName, _bstr_t par_TypeNamespace, _bstr_t par_ProgID, _bstr_t par_IID ) {
+    HRESULT _hr = raw_AddType(par_TypeName, par_TypeNamespace, par_ProgID, par_IID);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT ISoapTypeMapperFactory::AddElement ( _bstr_t par_ElementName, _bstr_t par_ElementNamespace, _bstr_t par_ProgID, _bstr_t par_IID ) {
+    HRESULT _hr = raw_AddElement(par_ElementName, par_ElementNamespace, par_ProgID, par_IID);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISoapTypeMapperPtr ISoapTypeMapperFactory::GetMapper ( enXSDType par_xsdType, struct MSXML2::IXMLDOMNode * par_SchemaNode ) {
+    struct ISoapTypeMapper * _result = 0;
+    HRESULT _hr = raw_GetMapper(par_xsdType, par_SchemaNode, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISoapTypeMapperPtr(_result, false);
+}
+
+inline HRESULT ISoapTypeMapperFactory::AddCustomMapper ( _bstr_t par_ProgID, struct MSXML2::IXMLDOMNode * par_WSMLNode ) {
+    HRESULT _hr = raw_AddCustomMapper(par_ProgID, par_WSMLNode);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline MSXML2::IXMLDOMNodePtr ISoapTypeMapperFactory::GetDefinitionsNode ( _bstr_t par_BaseName, _bstr_t par_Namespace, VARIANT_BOOL par_LookForElement ) {
+    struct MSXML2::IXMLDOMNode * _result = 0;
+    HRESULT _hr = raw_GetDefinitionsNode(par_BaseName, par_Namespace, par_LookForElement, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMNodePtr(_result, false);
+}
+
+//
+// interface ISoapTypeMapper wrapper method implementations
+//
+
+inline HRESULT ISoapTypeMapper::Init ( struct ISoapTypeMapperFactory * par_Factory, struct MSXML2::IXMLDOMNode * par_Schema, struct MSXML2::IXMLDOMNode * par_WSMLNode, enXSDType par_xsdType ) {
+    HRESULT _hr = raw_Init(par_Factory, par_Schema, par_WSMLNode, par_xsdType);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline _variant_t ISoapTypeMapper::Read ( struct ISoapReader * par_soapreader, struct MSXML2::IXMLDOMNode * par_Node, _bstr_t par_encoding, enEncodingStyle par_encodingMode, long par_flags ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = raw_Read(par_soapreader, par_Node, par_encoding, par_encodingMode, par_flags, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline HRESULT ISoapTypeMapper::Write ( struct ISoapSerializer * par_ISoapSerializer, _bstr_t par_encoding, enEncodingStyle par_encodingMode, long par_flags, VARIANT * par_var ) {
+    HRESULT _hr = raw_Write(par_ISoapSerializer, par_encoding, par_encodingMode, par_flags, par_var);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline long ISoapTypeMapper::VarType ( ) {
+    long _result = 0;
+    HRESULT _hr = raw_VarType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline _bstr_t ISoapTypeMapper::Iid ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_Iid(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline MSXML2::IXMLDOMNodePtr ISoapTypeMapper::SchemaNode ( ) {
+    struct MSXML2::IXMLDOMNode * _result = 0;
+    HRESULT _hr = raw_SchemaNode(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return MSXML2::IXMLDOMNodePtr(_result, false);
+}
+
+inline enXSDType ISoapTypeMapper::XsdType ( ) {
+    enXSDType _result;
+    HRESULT _hr = raw_XsdType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface IWSDLReader wrapper method implementations
+//
+
+inline HRESULT IWSDLReader::Load ( _bstr_t par_WSDLFile, _bstr_t par_WSMLFile ) {
+    HRESULT _hr = raw_Load(par_WSDLFile, par_WSMLFile);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLReader::Load2 ( const _variant_t & par_WSDLFile, const _variant_t & par_WSMLFile, _bstr_t par_StartingNamespace ) {
+    HRESULT _hr = raw_Load2(par_WSDLFile, par_WSMLFile, par_StartingNamespace);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLReader::GetSoapServices ( struct IEnumWSDLService * * par_IWSDLServiceEnum ) {
+    HRESULT _hr = raw_GetSoapServices(par_IWSDLServiceEnum);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLReader::ParseRequest ( struct ISoapReader * par_ISoapReader, struct IWSDLPort * * par_IWSDLPort, struct IWSDLOperation * * par_IWSDLOperation ) {
+    HRESULT _hr = raw_ParseRequest(par_ISoapReader, par_IWSDLPort, par_IWSDLOperation);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IWSDLReader::SetProperty ( _bstr_t par_PropertyName, const _variant_t & par_PropValue ) {
+    HRESULT _hr = raw_SetProperty(par_PropertyName, par_PropValue);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline ISoapTypeMapperFactoryPtr IWSDLReader::GetTypeFactory ( ) {
+    struct ISoapTypeMapperFactory * _result = 0;
+    HRESULT _hr = get_TypeFactory(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return ISoapTypeMapperFactoryPtr(_result, false);
+}
