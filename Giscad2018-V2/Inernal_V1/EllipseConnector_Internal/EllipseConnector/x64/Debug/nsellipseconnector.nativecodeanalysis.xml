@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+      <FILENAME>nsellipseconnector.cpp</FILENAME>
+      <LINE>475</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'szErrorFieldValue'.</DESCRIPTION>
+    <FUNCTION>CNSEllipseConnector::getResult</FUNCTION>
+    <DECORATED>?getResult@CNSEllipseConnector@@QEAAPEA_WAEAV?$vector@PEAVCNSDataItem@@V?$allocator@PEAVCNSDataItem@@@std@@@std@@AEAV?$vector@PEA_WV?$allocator@PEA_W@std@@@3@@Z</DECORATED>
+    <FUNCLINE>323</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>334</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>80</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>439</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>441</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>442</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>445</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>445</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>447</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>448</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>450</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>452</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>452</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'szErrorFieldValue' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>463</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>465</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'FieldNodePtr._N()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>475</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'szErrorFieldValue' is an In/Out argument to 'std::basic_string&lt;wchar_t,std::char_traits&lt;wchar_t&gt;,std::allocator&lt;wchar_t&gt; &gt;::{ctor}' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:834)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>475</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'szErrorFieldValue' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+      <FILENAME>nsellipseconnector.cpp</FILENAME>
+      <LINE>477</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'szErrorTextValue'.</DESCRIPTION>
+    <FUNCTION>CNSEllipseConnector::getResult</FUNCTION>
+    <DECORATED>?getResult@CNSEllipseConnector@@QEAAPEA_WAEAV?$vector@PEAVCNSDataItem@@V?$allocator@PEAVCNSDataItem@@@std@@@std@@AEAV?$vector@PEA_WV?$allocator@PEA_W@std@@@3@@Z</DECORATED>
+    <FUNCLINE>323</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>329</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>334</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>80</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>63</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>346</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>81</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>439</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>441</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>442</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>444</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>445</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>445</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>447</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>448</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>450</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>451</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>452</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'szErrorTextValue' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>452</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'textNodePtr._N()' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>463</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>465</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>475</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>476</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>477</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'szErrorTextValue' is an In/Out argument to 'std::basic_string&lt;wchar_t,std::char_traits&lt;wchar_t&gt;,std::allocator&lt;wchar_t&gt; &gt;::+=' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring:1053)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\ellipseconnector_internal\ellipseconnector\</FILEPATH>
+        <FILENAME>nsellipseconnector.cpp</FILENAME>
+        <LINE>477</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'szErrorTextValue' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
