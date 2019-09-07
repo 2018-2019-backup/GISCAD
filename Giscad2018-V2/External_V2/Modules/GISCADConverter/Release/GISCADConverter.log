@@ -1,0 +1,105 @@
+﻿E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj(50,5): warning MSB4011: "C:\Users\admin\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props" cannot be imported again. It was already imported at "E:\GISCAD\Giscad2018\External\Modules\RealDWGProcessor\RealDWGProcessor.vcxproj (49,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  stdafx.cpp
+  GISCADConverter.cpp
+e:\giscad\giscad2018\external\modules\giscadconverter\NSTElement.h(12): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+e:\giscad\giscad2018\external\modules\giscadconverter\NSTElement.h(12): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+GISCADConverter.cpp(25): fatal error C1083: Cannot open include file: 'adesk.h': No such file or directory
+  NSAttribute.cpp
+  NSAttributesContainer.cpp
+  NSCadData.cpp
+  NSComponent.cpp
+  NSComponentContainer.cpp
+NSComponentContainer.cpp(98): warning C4456: declaration of 'nCNO' hides previous local declaration
+  NSComponentContainer.cpp(60): note: see declaration of 'nCNO'
+  NSCompositeCurve.cpp
+  NSCompositeSurface.cpp
+  NSConnectivity.cpp
+  NSConverterUtils.cpp
+  NSCurveMember.cpp
+  NSExportCAD.cpp
+  NSExportedFeatureContainer.cpp
+  NSExportHeader.cpp
+  NSFeature.cpp
+NSFeature.cpp(271): warning C4456: declaration of 'nDBRet' hides previous local declaration
+  NSFeature.cpp(171): note: see declaration of 'nDBRet'
+NSFeature.cpp(272): warning C4456: declaration of 'strMessage' hides previous local declaration
+  NSFeature.cpp(173): note: see declaration of 'strMessage'
+NSFeature.cpp(191): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'const wchar_t *'
+  NSFeature.cpp(191): note: consider using '%lS' in the format string
+  NSFeature.cpp(191): note: consider using '%llS' in the format string
+  NSFeature.cpp(191): note: consider using '%LS' in the format string
+  NSFeature.cpp(191): note: consider using '%wS' in the format string
+NSFeature.cpp(191): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'const wchar_t *'
+  NSFeature.cpp(191): note: consider using '%lS' in the format string
+  NSFeature.cpp(191): note: consider using '%llS' in the format string
+  NSFeature.cpp(191): note: consider using '%LS' in the format string
+  NSFeature.cpp(191): note: consider using '%wS' in the format string
+NSFeature.cpp(191): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 3 has type 'const wchar_t *'
+  NSFeature.cpp(191): note: consider using '%lS' in the format string
+  NSFeature.cpp(191): note: consider using '%llS' in the format string
+  NSFeature.cpp(191): note: consider using '%LS' in the format string
+  NSFeature.cpp(191): note: consider using '%wS' in the format string
+NSFeature.cpp(201): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'const wchar_t *'
+  NSFeature.cpp(201): note: consider using '%lS' in the format string
+  NSFeature.cpp(201): note: consider using '%llS' in the format string
+  NSFeature.cpp(201): note: consider using '%LS' in the format string
+  NSFeature.cpp(201): note: consider using '%wS' in the format string
+NSFeature.cpp(271): warning C4189: 'nDBRet': local variable is initialized but not referenced
+NSFeature.cpp(542): warning C4800: 'VARIANT_BOOL': forcing value to bool 'true' or 'false' (performance warning)
+NSFeature.cpp(499): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'const wchar_t *'
+  NSFeature.cpp(499): note: consider using '%lS' in the format string
+  NSFeature.cpp(499): note: consider using '%llS' in the format string
+  NSFeature.cpp(499): note: consider using '%LS' in the format string
+  NSFeature.cpp(499): note: consider using '%wS' in the format string
+NSFeature.cpp(499): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 3 has type 'const wchar_t *'
+  NSFeature.cpp(499): note: consider using '%lS' in the format string
+  NSFeature.cpp(499): note: consider using '%llS' in the format string
+  NSFeature.cpp(499): note: consider using '%LS' in the format string
+  NSFeature.cpp(499): note: consider using '%wS' in the format string
+NSFeature.cpp(662): warning C4477: 'swprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'const wchar_t *'
+NSFeature.cpp(662): warning C4477: 'swprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'const wchar_t *'
+NSFeature.cpp(662): warning C4474: 'swprintf_s' : too many arguments passed for format string
+  NSFeature.cpp(662): note: placeholders and their parameters expect 2 variadic arguments, but 4 were provided
+NSFeature.cpp(875): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(859): note: see declaration of 'nRetVal'
+NSFeature.cpp(874): warning C4474: 'swprintf_s' : too many arguments passed for format string
+  NSFeature.cpp(874): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+NSFeature.cpp(988): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(926): note: see declaration of 'nRetVal'
+NSFeature.cpp(1155): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(1139): note: see declaration of 'nRetVal'
+NSFeature.cpp(1171): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(1155): note: see declaration of 'nRetVal'
+NSFeature.cpp(1185): warning C4456: declaration of 'bResult1' hides previous local declaration
+  NSFeature.cpp(1165): note: see declaration of 'bResult1'
+NSFeature.cpp(1195): warning C4456: declaration of 'szQuery' hides previous local declaration
+  NSFeature.cpp(1137): note: see declaration of 'szQuery'
+NSFeature.cpp(1246): warning C4189: 'nVal': local variable is initialized but not referenced
+  NSGeometry.cpp
+  NSHeader.cpp
+  NSImportCAD.cpp
+  NSImportedFeatureContainer.cpp
+NSImportedFeatureContainer.cpp(591): warning C4800: 'VARIANT_BOOL': forcing value to bool 'true' or 'false' (performance warning)
+NSImportedFeatureContainer.cpp(677): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+NSImportedFeatureContainer.cpp(704): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+NSImportedFeatureContainer.cpp(819): warning C4018: '<': signed/unsigned mismatch
+NSImportedFeatureContainer.cpp(1237): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+NSImportedFeatureContainer.cpp(1261): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+  NSImportHeader.cpp
+NSImportHeader.cpp(11): fatal error C1083: Cannot open include file: 'adesk.h': No such file or directory
+  Compiling...
+  NSLineString.cpp
+  NSManyOwnership.cpp
+  NSOwnership.cpp
+  NSPair.cpp
+  NSPoint.cpp
+  NSPolygon.cpp
+NSPolygon.cpp(38): warning C4456: declaration of 'oElement' hides previous local declaration
+  NSPolygon.cpp(37): note: see declaration of 'oElement'
+  NSRelationShip.cpp
+  NSTElement .cpp
+  NSXMLParser.cpp

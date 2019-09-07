@@ -1,0 +1,108 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  NSXMLParser.cpp
+  NSTElement .cpp
+  NSRelationShip.cpp
+  NSPolygon.cpp
+NSPolygon.cpp(38): warning C4456: declaration of 'oElement' hides previous local declaration
+  NSPolygon.cpp(37): note: see declaration of 'oElement'
+  NSPoint.cpp
+  NSPair.cpp
+  NSOwnership.cpp
+  NSManyOwnership.cpp
+  NSLineString.cpp
+  NSImportedFeatureContainer.cpp
+NSImportedFeatureContainer.cpp(591): warning C4800: 'VARIANT_BOOL': forcing value to bool 'true' or 'false' (performance warning)
+NSImportedFeatureContainer.cpp(677): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+NSImportedFeatureContainer.cpp(704): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+NSImportedFeatureContainer.cpp(872): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+NSImportedFeatureContainer.cpp(1237): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+NSImportedFeatureContainer.cpp(1261): warning C4458: declaration of 'mapNestedFeatureContainer' hides class member
+  e:\giscad\giscad2018\external\modules\giscadconverter\NSImportedFeatureContainer.h(49): note: see declaration of 'CNSImportedFeatureContainer::mapNestedFeatureContainer'
+  NSImportHeader.cpp
+NSImportHeader.cpp(11): fatal error C1083: Cannot open include file: 'adesk.h': No such file or directory
+  NSImportCAD.cpp
+  NSHeader.cpp
+  NSGeometry.cpp
+  NSFeature.cpp
+NSFeature.cpp(271): warning C4456: declaration of 'nDBRet' hides previous local declaration
+  NSFeature.cpp(171): note: see declaration of 'nDBRet'
+NSFeature.cpp(272): warning C4456: declaration of 'strMessage' hides previous local declaration
+  NSFeature.cpp(173): note: see declaration of 'strMessage'
+NSFeature.cpp(191): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'const wchar_t *'
+  NSFeature.cpp(191): note: consider using '%lS' in the format string
+  NSFeature.cpp(191): note: consider using '%llS' in the format string
+  NSFeature.cpp(191): note: consider using '%LS' in the format string
+  NSFeature.cpp(191): note: consider using '%wS' in the format string
+NSFeature.cpp(191): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'const wchar_t *'
+  NSFeature.cpp(191): note: consider using '%lS' in the format string
+  NSFeature.cpp(191): note: consider using '%llS' in the format string
+  NSFeature.cpp(191): note: consider using '%LS' in the format string
+  NSFeature.cpp(191): note: consider using '%wS' in the format string
+NSFeature.cpp(191): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 3 has type 'const wchar_t *'
+  NSFeature.cpp(191): note: consider using '%lS' in the format string
+  NSFeature.cpp(191): note: consider using '%llS' in the format string
+  NSFeature.cpp(191): note: consider using '%LS' in the format string
+  NSFeature.cpp(191): note: consider using '%wS' in the format string
+NSFeature.cpp(201): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 1 has type 'const wchar_t *'
+  NSFeature.cpp(201): note: consider using '%lS' in the format string
+  NSFeature.cpp(201): note: consider using '%llS' in the format string
+  NSFeature.cpp(201): note: consider using '%LS' in the format string
+  NSFeature.cpp(201): note: consider using '%wS' in the format string
+NSFeature.cpp(271): warning C4189: 'nDBRet': local variable is initialized but not referenced
+NSFeature.cpp(542): warning C4800: 'VARIANT_BOOL': forcing value to bool 'true' or 'false' (performance warning)
+NSFeature.cpp(499): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'const wchar_t *'
+  NSFeature.cpp(499): note: consider using '%lS' in the format string
+  NSFeature.cpp(499): note: consider using '%llS' in the format string
+  NSFeature.cpp(499): note: consider using '%LS' in the format string
+  NSFeature.cpp(499): note: consider using '%wS' in the format string
+NSFeature.cpp(499): warning C4477: 'swprintf_s' : format string '%S' requires an argument of type 'char *', but variadic argument 3 has type 'const wchar_t *'
+  NSFeature.cpp(499): note: consider using '%lS' in the format string
+  NSFeature.cpp(499): note: consider using '%llS' in the format string
+  NSFeature.cpp(499): note: consider using '%LS' in the format string
+  NSFeature.cpp(499): note: consider using '%wS' in the format string
+NSFeature.cpp(662): warning C4477: 'swprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'const wchar_t *'
+NSFeature.cpp(662): warning C4313: 'swprintf_s': '%d' in format string conflicts with argument 1 of type 'const wchar_t *'
+NSFeature.cpp(662): warning C4477: 'swprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'const wchar_t *'
+NSFeature.cpp(662): warning C4313: 'swprintf_s': '%d' in format string conflicts with argument 2 of type 'const wchar_t *'
+NSFeature.cpp(662): warning C4474: 'swprintf_s' : too many arguments passed for format string
+  NSFeature.cpp(662): note: placeholders and their parameters expect 2 variadic arguments, but 4 were provided
+NSFeature.cpp(875): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(859): note: see declaration of 'nRetVal'
+NSFeature.cpp(874): warning C4474: 'swprintf_s' : too many arguments passed for format string
+  NSFeature.cpp(874): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+NSFeature.cpp(988): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(926): note: see declaration of 'nRetVal'
+NSFeature.cpp(1155): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(1139): note: see declaration of 'nRetVal'
+NSFeature.cpp(1171): warning C4456: declaration of 'nRetVal' hides previous local declaration
+  NSFeature.cpp(1155): note: see declaration of 'nRetVal'
+NSFeature.cpp(1185): warning C4456: declaration of 'bResult1' hides previous local declaration
+  NSFeature.cpp(1165): note: see declaration of 'bResult1'
+NSFeature.cpp(1195): warning C4456: declaration of 'szQuery' hides previous local declaration
+  NSFeature.cpp(1137): note: see declaration of 'szQuery'
+NSFeature.cpp(1246): warning C4189: 'nVal': local variable is initialized but not referenced
+  NSExportedFeatureContainer.cpp
+  NSExportHeader.cpp
+  NSExportCAD.cpp
+  NSCurveMember.cpp
+  NSConverterUtils.cpp
+  Generating Code...
+e:\giscad\giscad2018\external\modules\giscadconverter\nsfeature.cpp(1096): warning C4715: 'CNSFeature::assignRepresentation': not all control paths return a value
+e:\giscad\giscad2018\external\modules\giscadconverter\nsfeature.cpp(1297): warning C4715: 'CNSFeature::getFinalBlockName': not all control paths return a value
+  Compiling...
+  NSConnectivity.cpp
+  NSCompositeSurface.cpp
+  NSCompositeCurve.cpp
+  NSComponentContainer.cpp
+NSComponentContainer.cpp(98): warning C4456: declaration of 'nCNO' hides previous local declaration
+  NSComponentContainer.cpp(60): note: see declaration of 'nCNO'
+  NSComponent.cpp
+  NSCadData.cpp
+  NSAttributesContainer.cpp
+  NSAttribute.cpp
+  GISCADConverter.cpp
+GISCADConverter.cpp(25): fatal error C1083: Cannot open include file: 'adesk.h': No such file or directory
+  Generating Code...
