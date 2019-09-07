@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4C1D69A1-B62D-46CC-85AC-F4A6BD2A45A1}</ProjectGuid>
+    <RootNamespace>RealDWGProcessor</RootNamespace>
+    <CharacterSet>Unicode</CharacterSet>
+    <ProjectName>RealDWGProcessor</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30128.1</_ProjectFileVersion>
+    <OutDir>..\..\Release</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <TargetExt>.dll</TargetExt>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RealDWGProcessor</TargetName>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">c:\Users\chockalingam\Desktop\02Feb14\External Validator - 2013\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\ObjectARX_2018\inc-x64;C:\ObjectARX_2018\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\ObjectARX_2018\lib-x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\Autodesk\RealDWG 2018\Inc;C:\Program Files\Autodesk\RealDWG 2018\en;C:\Program Files\Autodesk\RealDWG 2018\en-US;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>REALDWGPROCESSOR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EditAndContinue</DebugInformationFormat>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Level1</WarningLevel>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+      <InlineFunctionExpansion Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</InlineFunctionExpansion>
+      <IntrinsicFunctions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</IntrinsicFunctions>
+      <FavorSizeOrSpeed Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Neither</FavorSizeOrSpeed>
+      <OmitFramePointers Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</OmitFramePointers>
+      <EnableFiberSafeOptimizations Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</WholeProgramOptimization>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</TreatWarningAsError>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <OutputFile>..\..\Release\RealDWGProcessor.dll</OutputFile>
+      <AdditionalDependencies>utils.lib;odbc32.lib;odbccp32.lib;urlmon.lib;wininet.lib;ac1st22.lib;acdb22.lib;acge22.lib;acgiapi.lib;acISMobj22.lib;rxapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\RealDWG 2018\lib;..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>..\..\Lib\$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Version Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Version>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\Autodesk\RealDWG 2018\Inc;C:\Program Files\Autodesk\RealDWG 2018\en;C:\Program Files\Autodesk\RealDWG 2018\en-US;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>REALDWGPROCESSOR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">EditAndContinue</DebugInformationFormat>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Level1</WarningLevel>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Disabled</Optimization>
+      <InlineFunctionExpansion Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</InlineFunctionExpansion>
+      <IntrinsicFunctions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</IntrinsicFunctions>
+      <FavorSizeOrSpeed Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Neither</FavorSizeOrSpeed>
+      <OmitFramePointers Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</OmitFramePointers>
+      <EnableFiberSafeOptimizations Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</WholeProgramOptimization>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</TreatWarningAsError>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</TreatWarningAsError>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <OutputFile>..\..\Release\RealDWGProcessor.dll</OutputFile>
+      <AdditionalDependencies>utils.lib;odbc32.lib;odbccp32.lib;urlmon.lib;wininet.lib;ac1st22.lib;acdb22.lib;acge22.lib;acgiapi.lib;acISMobj22.lib;rxapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\RealDWG 2018\lib;..\..\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>..\..\Lib\$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Version Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Version>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\Autodesk\RealDWG 2018\Inc;C:\Program Files\Autodesk\RealDWG 2018\en;C:\Program Files\Autodesk\RealDWG 2018\en-US;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalUsingDirectories />
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <OutputFile>C:\ACAD2018_GISCAD\EE Toolbox\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\RealDWG 2018\Lib\;..\..\Lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Program Files\Autodesk\RealDWG 2018\Inc;C:\Program Files\Autodesk\RealDWG 2018\en;C:\Program Files\Autodesk\RealDWG 2018\en-US;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalUsingDirectories />
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>UNICODE;_UNICODE;REALDWGPROCESSOR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <OutputFile>..\..\Debug\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>C:\Program Files\Autodesk\RealDWG 2018\Lib\;..\..\LibD\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalDependencies>utils.lib;odbc32.lib;odbccp32.lib;urlmon.lib;wininet.lib;ac1st22.lib;acdb22.lib;acge22.lib;acgiapi.lib;acISMobj22.lib;rxapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>..\..\LibD\$(TargetName).lib</ImportLibrary>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <IgnoreEmbeddedIDL>false</IgnoreEmbeddedIDL>
+      <ProgramDatabaseFile>$(ProjectDir)/RealDWGProcessorD.pdb</ProgramDatabaseFile>
+      <OptimizeReferences />
+      <EnableCOMDATFolding />
+      <DataExecutionPrevention />
+      <CLRThreadAttribute />
+      <CLRUnmanagedCodeCheck />
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dir.cpp" />
+    <ClCompile Include="NSAsset.cpp" />
+    <ClCompile Include="NSAssetValidation.cpp" />
+    <ClCompile Include="NSBaseValidator.cpp" />
+    <ClCompile Include="NSBlock.cpp" />
+    <ClCompile Include="NSCompositeGeometry.cpp" />
+    <ClCompile Include="NSDatabaseMgr.cpp" />
+    <ClCompile Include="NSDataItem.cpp" />
+    <ClCompile Include="NSDimStyle.cpp" />
+    <ClCompile Include="NSDimStyleTbl.cpp" />
+    <ClCompile Include="NSDWGMgr.cpp" />
+    <ClCompile Include="NSEllipseConnector.cpp" />
+    <ClCompile Include="NSErrorCircle.cpp" />
+    <ClCompile Include="NSErrorCodes.cpp" />
+    <ClCompile Include="NSErrorParser.cpp" />
+    <ClCompile Include="NSExtraValidator.cpp" />
+    <ClCompile Include="NSHTMLLogger.cpp" />
+    <ClCompile Include="NSLayer.cpp" />
+    <ClCompile Include="NSLayerBlockValidator.cpp" />
+    <ClCompile Include="NSLayerTbl.cpp" />
+    <ClCompile Include="NSLineType.cpp" />
+    <ClCompile Include="NSLineTypeTbl.cpp" />
+    <ClCompile Include="NSLocationValidator.cpp" />
+    <ClCompile Include="NSLogCollection.cpp" />
+    <ClCompile Include="NSLogger.cpp" />
+    <ClCompile Include="NSPoint3D.cpp" />
+    <ClCompile Include="NSRelationLinker.cpp" />
+    <ClCompile Include="NSReportLogger.cpp" />
+    <ClCompile Include="NSReportWriter.cpp" />
+    <ClCompile Include="NSTextHeight.cpp" />
+    <ClCompile Include="NSTextHeightTbl.cpp" />
+    <ClCompile Include="NSTextLogger.cpp" />
+    <ClCompile Include="NSTextStyle.cpp" />
+    <ClCompile Include="NSTextStyleTbl.cpp" />
+    <ClCompile Include="NSTitleBlockTbl.cpp" />
+    <ClCompile Include="NSValidationDataCollector.cpp" />
+    <ClCompile Include="NSValidatorImpl.cpp" />
+    <ClCompile Include="RealDWGProcessor.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NSAssetValidation.h" />
+    <ClInclude Include="NSBaseValidator.h" />
+    <ClInclude Include="NSDatabaseMgr.h" />
+    <ClInclude Include="NSDimStyleTbl.h" />
+    <ClInclude Include="NSErrorCircle.h" />
+    <ClInclude Include="NSErrorParser.h" />
+    <ClInclude Include="NSExtraValidator.h" />
+    <ClInclude Include="NSHTMLLogger.h" />
+    <ClInclude Include="NSLayerBlockValidator.h" />
+    <ClInclude Include="NSLayerTbl.h" />
+    <ClInclude Include="NSLineTypeTbl.h" />
+    <ClInclude Include="NSLocationValidator.h" />
+    <ClInclude Include="NSLogCollection.h" />
+    <ClInclude Include="NSLogger.h" />
+    <ClInclude Include="NSReportLogger.h" />
+    <ClInclude Include="NSTextHeightTbl.h" />
+    <ClInclude Include="NSTextLogger.h" />
+    <ClInclude Include="NSTextStyleTbl.h" />
+    <ClInclude Include="NSTitleBlockTbl.h" />
+    <ClInclude Include="RealDWGProcessor.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
