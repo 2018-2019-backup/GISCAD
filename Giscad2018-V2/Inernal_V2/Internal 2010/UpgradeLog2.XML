@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Internal 2010">
+</Property><Property Name="Solution File" Value="D:\GISCAD\GISCAD\2013-2014\GIS_CAD 2010 - Internal - 64bit\Internal 2010\Internal 2010.sln">
+</Property><Property Name="User Options File" Value="D:\GISCAD\GISCAD\2013-2014\GIS_CAD 2010 - Internal - 64bit\Internal 2010\Internal 2010.suo">
+</Property><Property Name="Date" Value="Monday, January 27, 2014">
+</Property><Property Name="Time" Value="11:18 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="Internal 2010.sln" Description="Error creating backup file: D:\GISCAD\GISCAD\2013-2014\GIS_CAD 2010 - Internal - 64bit\Internal 2010\Internal 2010.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="Internal 2010.suo" Description="Error creating backup file: D:\GISCAD\GISCAD\2013-2014\GIS_CAD 2010 - Internal - 64bit\Internal 2010\Internal 2010.suo.old">
+</Event><Event ErrorLevel="3" Project="RealDWGProcessor" Source="..\ARXProcessor\ARXProcessor\RealDWGProcessor.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="AcadValidation" Source="..\AcadValidation\AcadValidation\AcadValidation.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="AssetNumberingUtility" Source="..\AssetNumberingUtility\AssetNumberingUtility\AssetNumberingUtility.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="Utils" Source="..\Utils_Internal\Utils\Utils.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="Validator" Source="..\Validator_Internal\Validator\Validator.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="EllipseConnector" Source="..\EllipseConnector_Internal\EllipseConnector\EllipseConnector.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="3" Project="AssetMgr" Source="..\AssetMgr\AssetMgr\AssetMgr.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="Internal 2010.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Internal 2010.sln" Description="Converted">
+</Event></UpgradeLog>
