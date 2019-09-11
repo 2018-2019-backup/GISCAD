@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+      <FILENAME>nstextlogger.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6328</DEFECTCODE>
+    <DESCRIPTION>Size mismatch: 'unsigned __int64' passed as _Param_(3) when 'int' is required in call to 'fwprintf'. </DESCRIPTION>
+    <FUNCTION>CNSTextLogger::writeReport</FUNCTION>
+    <DECORATED>?writeReport@CNSTextLogger@@UEAA_NAEAV?$map@W4LOGTYPE@@PEAVCNSLogCollection@@U?$less@W4LOGTYPE@@@std@@V?$allocator@U?$pair@$$CBW4LOGTYPE@@PEAVCNSLogCollection@@@std@@@4@@std@@PEA_W@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+      <FILENAME>nstextlogger.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned __int64' passed as _Param_(3) when some signed type is required in call to 'fwprintf'.</DESCRIPTION>
+    <FUNCTION>CNSTextLogger::writeReport</FUNCTION>
+    <DECORATED>?writeReport@CNSTextLogger@@UEAA_NAEAV?$map@W4LOGTYPE@@PEAVCNSLogCollection@@U?$less@W4LOGTYPE@@@std@@V?$allocator@U?$pair@$$CBW4LOGTYPE@@PEAVCNSLogCollection@@@std@@@4@@std@@PEA_W@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+      <FILENAME>nstextlogger.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6328</DEFECTCODE>
+    <DESCRIPTION>Size mismatch: 'unsigned __int64' passed as _Param_(3) when 'int' is required in call to 'fwprintf'. </DESCRIPTION>
+    <FUNCTION>CNSTextLogger::writeReport</FUNCTION>
+    <DECORATED>?writeReport@CNSTextLogger@@UEAA_NAEAV?$map@W4LOGTYPE@@PEAVCNSLogCollection@@U?$less@W4LOGTYPE@@@std@@V?$allocator@U?$pair@$$CBW4LOGTYPE@@PEAVCNSLogCollection@@@std@@@4@@std@@PEA_W@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\utils_internal\utils\</FILEPATH>
+      <FILENAME>nstextlogger.cpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6340</DEFECTCODE>
+    <DESCRIPTION>Mismatch on sign: 'unsigned __int64' passed as _Param_(3) when some signed type is required in call to 'fwprintf'.</DESCRIPTION>
+    <FUNCTION>CNSTextLogger::writeReport</FUNCTION>
+    <DECORATED>?writeReport@CNSTextLogger@@UEAA_NAEAV?$map@W4LOGTYPE@@PEAVCNSLogCollection@@U?$less@W4LOGTYPE@@@std@@V?$allocator@U?$pair@$$CBW4LOGTYPE@@PEAVCNSLogCollection@@@std@@@4@@std@@PEA_W@Z</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
