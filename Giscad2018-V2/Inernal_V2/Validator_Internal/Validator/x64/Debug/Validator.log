@@ -1,0 +1,79 @@
+﻿  stdafx.cpp
+  Validator.cpp
+  NSValidatorImpl.cpp
+  NSTitleBlockTbl.cpp
+NSTitleBlockTbl.cpp(40): warning C4101: 'szFormat': unreferenced local variable
+  NSTextStyleTbl.cpp
+NSTextStyleTbl.cpp(30): warning C4101: 'pLocalTextStyle': unreferenced local variable
+NSTextStyleTbl.cpp(33): warning C4101: 'szFormat': unreferenced local variable
+NSTextStyleTbl.cpp(30): warning C4101: 'pStdTextStyle': unreferenced local variable
+  NSTextHeightTbl.cpp
+NSTextHeightTbl.cpp(46): warning C4101: 'szQuery': unreferenced local variable
+  NSRelationLinker.cpp
+NSRelationLinker.cpp(360): warning C4101: 'temp': unreferenced local variable
+NSRelationLinker.cpp(2709): warning C4101: 'szFormat': unreferenced local variable
+NSRelationLinker.cpp(3168): warning C4101: 'szFormat': unreferenced local variable
+  NSLocationValidator.cpp
+NSLocationValidator.cpp(94): warning C4101: 'szFormat': unreferenced local variable
+NSLocationValidator.cpp(115): warning C4101: 'szFormat': unreferenced local variable
+  NSLineTypeTbl.cpp
+NSLineTypeTbl.cpp(36): warning C4101: 'szFormat': unreferenced local variable
+  NSLayerTbl.cpp
+NSLayerTbl.cpp(35): warning C4101: 'szFormat': unreferenced local variable
+  NSLayerBlockValidator.cpp
+NSLayerBlockValidator.cpp(288): warning C4101: 'szFormat': unreferenced local variable
+NSLayerBlockValidator.cpp(472): warning C4101: 'szFormat': unreferenced local variable
+NSLayerBlockValidator.cpp(498): warning C4101: 'szFormat': unreferenced local variable
+NSLayerBlockValidator.cpp(1143): warning C4101: 'szFormat': unreferenced local variable
+NSLayerBlockValidator.cpp(1265): warning C4101: 'szFormat': unreferenced local variable
+NSLayerBlockValidator.cpp(1304): warning C4101: 'szFormat': unreferenced local variable
+  NSExtraValidator.cpp
+NSExtraValidator.cpp(146): warning C4101: 'nErrNumber': unreferenced local variable
+  NSErrorParser.cpp
+NSErrorParser.cpp(36): warning C4101: 'szFormat': unreferenced local variable
+NSErrorParser.cpp(294): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSErrorParser.cpp(295): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+NSErrorParser.cpp(299): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  NSErrorCodes.cpp
+..\..\Include\NSErrorCodes.cpp(64): warning C4101: 'strvalue3': unreferenced local variable
+..\..\Include\NSErrorCodes.cpp(64): warning C4101: 'strvalue2': unreferenced local variable
+..\..\Include\NSErrorCodes.cpp(63): warning C4101: 'ivalue': unreferenced local variable
+..\..\Include\NSErrorCodes.cpp(64): warning C4101: 'strvalue1': unreferenced local variable
+  NSErrorCircle.cpp
+  NSDimStyleTbl.cpp
+NSDimStyleTbl.cpp(40): warning C4101: 'szFormat': unreferenced local variable
+  NSBaseValidator.cpp
+NSBaseValidator.cpp(74): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+NSBaseValidator.cpp(602): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+NSBaseValidator.cpp(168): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+  NSAssetValidation.cpp
+e:\giscad\giscad2018\inernal\validator_internal\validator\../../Include/NSAsset.h(33): warning C4251: 'CNSAsset::m_strAssetNum': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2635): note: see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+e:\giscad\giscad2018\inernal\validator_internal\validator\../../Include/NSAsset.h(34): warning C4251: 'CNSAsset::m_strLayerName': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2635): note: see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+e:\giscad\giscad2018\inernal\validator_internal\validator\../../Include/NSAsset.h(35): warning C4251: 'CNSAsset::m_strBlockName': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2635): note: see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+e:\giscad\giscad2018\inernal\validator_internal\validator\../../Include/NSAsset.h(36): warning C4251: 'CNSAsset::m_strDepot': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2635): note: see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+e:\giscad\giscad2018\inernal\validator_internal\validator\../../Include/NSAsset.h(37): warning C4251: 'CNSAsset::m_strEquipClass': class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2635): note: see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+e:\giscad\giscad2018\inernal\validator_internal\validator\../../Include/NSAsset.h(39): warning C4251: 'CNSAsset::m_mapOfAttributes': class 'std::map<std::wstring,std::wstring,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'CNSAsset'
+          with
+          [
+              _Kty=std::wstring,
+              _Ty=std::wstring
+          ]
+  e:\giscad\giscad2018\inernal\validator_internal\validator\../../Include/NSAsset.h(39): note: see declaration of 'std::map<std::wstring,std::wstring,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::wstring,
+              _Ty=std::wstring
+          ]
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\GISCAD\Giscad2018\Inernal\Validator_Internal\Validator\x64\Debug\Validator.dll) does not match the Linker's OutputFile property value (E:\GISCAD\Giscad2018\Inernal\Debug\Validator_Internal.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Validator) does not match the Linker's OutputFile property value (Validator_Internal). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  LINK : ..\..\Debug\Validator_Internal.dll not found or not built by the last incremental link; performing full link
+     Creating library ..\..\LibD\Validator_InternalD.lib and object ..\..\LibD\Validator_InternalD.exp
+  Validator.vcxproj -> E:\GISCAD\Giscad2018\Inernal\Validator_Internal\Validator\x64\Debug\Validator.dll
+  Validator.vcxproj -> x64\Debug\ValidatorD.pdb (Full PDB)
