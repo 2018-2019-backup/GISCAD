@@ -1,0 +1,523 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (5b07f2dd).
+//
+// e:\giscad\giscad2018\inernal\arxprocessor\arxprocessor\x64\release\acstmgr.tlh
+//
+// C++ source equivalent of type library AcStMgr.tlb
+// compiler-generated file created 01/25/19 at 10:27:15 - DO NOT EDIT!
+
+//
+// Cross-referenced type libraries:
+//
+//  #import "C:\Program Files\Common Files\Autodesk Shared\axdb22enu.tlb"
+//
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("74d9eae2-fe69-4286-a6ae-e638ad1c41a2"))
+/* LIBID */ __AcStMgr;
+enum AcStFlags;
+enum AcStResultStatus;
+enum AcStSeverityLevel;
+enum AcStFixType;
+enum AcStFileStatus;
+struct __declspec(uuid("130804bc-b997-49e8-82e3-ca8cc081ad9e"))
+/* dual interface */ IAcStManager2;
+struct __declspec(uuid("0cb1de25-b6e6-44e8-a91a-dd6976604ff3"))
+/* dual interface */ IAcStErrorIterator2;
+struct __declspec(uuid("b9a070c2-1334-4ebc-96aa-f733df5a8f39"))
+/* dual interface */ IAcStFiler;
+struct __declspec(uuid("1e85d55a-bc22-48cf-8456-c67cfb3b86c1"))
+/* dual interface */ IAcStError;
+struct __declspec(uuid("83a1cf1a-e021-4840-91f0-8defa9668296"))
+/* dual interface */ IAcStPlugin2;
+struct __declspec(uuid("7bcf0ec2-45c8-4e89-982e-f7152004f60d"))
+/* dual interface */ IAcStFix;
+struct __declspec(uuid("83286447-f0c1-4ba0-aaa9-603af1e15f87"))
+/* dual interface */ IAcStBlockProxy;
+struct /* coclass */ AcStManager;
+struct /* coclass */ AcStFiler;
+struct /* coclass */ AcStErrorIterator;
+struct /* coclass */ AcStError;
+struct /* coclass */ AcStFix;
+struct /* coclass */ AcStModelSpaceProxy;
+struct /* coclass */ AcStPaperSpaceProxy;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IAcStFiler, __uuidof(IAcStFiler));
+_COM_SMARTPTR_TYPEDEF(IAcStFix, __uuidof(IAcStFix));
+_COM_SMARTPTR_TYPEDEF(IAcStBlockProxy, __uuidof(IAcStBlockProxy));
+_COM_SMARTPTR_TYPEDEF(IAcStManager2, __uuidof(IAcStManager2));
+_COM_SMARTPTR_TYPEDEF(IAcStErrorIterator2, __uuidof(IAcStErrorIterator2));
+_COM_SMARTPTR_TYPEDEF(IAcStError, __uuidof(IAcStError));
+_COM_SMARTPTR_TYPEDEF(IAcStPlugin2, __uuidof(IAcStPlugin2));
+
+//
+// Type library items
+//
+
+enum __declspec(uuid("06ecad00-d8d2-4ac3-ade0-6918798d7de8"))
+AcStFlags
+{
+    acStFlagsNone = 0,
+    acStIgnoreByUser = 1,
+    acStIgnoreByApplication = 2
+};
+
+enum __declspec(uuid("ca46d0b2-718d-476c-84b3-d3c504e45ba1"))
+AcStResultStatus
+{
+    acStResFlagsNone = 0,
+    acStResIgnoreByUser = 1,
+    acStResIgnoreByApplication = 2,
+    acStResFixed = 4,
+    acStResFixFailed = 8,
+    acStResNotFixable = 16,
+    acStResNoRecommendedFix = 32,
+    acStResBadObjectNotFound = 64,
+    acStResFixObjectNotFound = 128
+};
+
+enum __declspec(uuid("ef538c73-4117-44f5-838b-65ac8d43f108"))
+AcStSeverityLevel
+{
+    acStSevere = 1,
+    acStIgnored = 5,
+    acStFixed = 10
+};
+
+enum __declspec(uuid("9d843ec1-752c-4aac-a6df-4e408d6e5a42"))
+AcStFixType
+{
+    acStFixUnspecified = 0,
+    acStFixRecommended = 1,
+    acStFixApply = 2,
+    acStFixNotAvailable = 3
+};
+
+enum __declspec(uuid("6fb16572-cf14-4638-aebb-e33de8296694"))
+AcStFileStatus
+{
+    acStFileStatusFound = 1,
+    acStFileStatusMissing = 2,
+    acStFileStatusNewerVersionAvailable = 3,
+    acStFileStatusInvalid = 4,
+    acStFileStatusBadPassword = 5,
+    acStFileStatusAccessDenied = 6,
+    acStFileStatusTimeOut = 7,
+    acStFileStatusInvalidURL = 8,
+    acStFileStatusMissingDws = 9
+};
+
+struct __declspec(uuid("b9a070c2-1334-4ebc-96aa-f733df5a8f39"))
+IAcStFiler : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall SaveAs (
+        /*[in]*/ BSTR fileName,
+        /*[out,retval]*/ VARIANT_BOOL * bSuccess ) = 0;
+      virtual HRESULT __stdcall Load (
+        /*[in]*/ BSTR fileName,
+        /*[out,retval]*/ VARIANT_BOOL * bSuccess ) = 0;
+      virtual HRESULT __stdcall get_UserName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_UserName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_XMLDocument (
+        /*[out,retval]*/ IDispatch * * pDoc ) = 0;
+};
+
+struct __declspec(uuid("7bcf0ec2-45c8-4e89-982e-f7152004f60d"))
+IAcStFix : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Description (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Description (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_FixObjectId (
+        /*[out,retval]*/ LONG_PTR * objId ) = 0;
+      virtual HRESULT __stdcall put_FixObjectId (
+        /*[in]*/ LONG_PTR objId ) = 0;
+      virtual HRESULT __stdcall get_FixObjectName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_FixObjectName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_StandardFileName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_StandardFileName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall writeData (
+        /*[in]*/ IDispatch * pParentNode ) = 0;
+      virtual HRESULT __stdcall Reset ( ) = 0;
+      virtual HRESULT __stdcall get_PropertyCount (
+        /*[out,retval]*/ long * pCount ) = 0;
+      virtual HRESULT __stdcall PropertyGetAt (
+        /*[in]*/ long index,
+        /*[in,out]*/ BSTR * szName,
+        /*[in,out]*/ VARIANT * value ) = 0;
+      virtual HRESULT __stdcall PropertyValueGet (
+        /*[in]*/ BSTR szName,
+        /*[in,out]*/ VARIANT * value ) = 0;
+      virtual HRESULT __stdcall PropertyValuePut (
+        /*[in]*/ BSTR szName,
+        /*[in]*/ VARIANT value ) = 0;
+};
+
+struct __declspec(uuid("83286447-f0c1-4ba0-aaa9-603af1e15f87"))
+IAcStBlockProxy : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall Item (
+        /*[in]*/ VARIANT index,
+        /*[out,retval]*/ struct IAcadEntity * * pItem ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * pVal ) = 0;
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * pVal ) = 0;
+};
+
+struct __declspec(uuid("8dd5e791-5f4c-498e-93aa-075081d7d711"))
+AcStManager;
+    // [ default ] interface IAcStManager2
+
+struct __declspec(uuid("e6fbffcf-c221-477d-a4b9-bd63ea59768d"))
+AcStFiler;
+    // [ default ] interface IAcStFiler
+
+struct __declspec(uuid("364fcd7c-610d-4a09-b16c-2c6dd2f4e5ca"))
+AcStErrorIterator;
+    // [ default ] interface IAcStErrorIterator2
+
+struct __declspec(uuid("0f7739c3-e711-4f39-bc13-7666fed0bcf9"))
+AcStError;
+    // [ default ] interface IAcStError
+
+struct __declspec(uuid("98b06198-ebc9-45b5-86c2-282478f7b499"))
+AcStFix;
+    // [ default ] interface IAcStFix
+
+struct __declspec(uuid("74f278d6-c6ff-4fcb-90ac-733ce45c9903"))
+AcStModelSpaceProxy;
+    // [ default ] interface IAcStBlockProxy
+
+struct __declspec(uuid("954b7ef6-2188-44cb-8392-31ae1a4aa05e"))
+AcStPaperSpaceProxy;
+    // [ default ] interface IAcStBlockProxy
+
+struct __declspec(uuid("130804bc-b997-49e8-82e3-ca8cc081ad9e"))
+IAcStManager2 : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall NewErrorIterator (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in]*/ BSTR szPathName,
+        /*[in]*/ VARIANT pluginProgIdArray,
+        /*[in]*/ VARIANT stdNameArray,
+        /*[in]*/ VARIANT stdPathArray,
+        /*[in]*/ VARIANT stdDbArray,
+        /*[out,retval]*/ struct IAcStErrorIterator2 * * pIter ) = 0;
+      virtual HRESULT __stdcall GetPluginDescription (
+        /*[in]*/ BSTR szProdID,
+        /*[in,out]*/ BSTR * szName,
+        /*[in,out]*/ BSTR * szVersion,
+        /*[in,out]*/ BSTR * szDescription,
+        /*[in,out]*/ BSTR * szAuthor,
+        /*[in,out]*/ BSTR * szHref,
+        /*[in,out]*/ LONG_PTR * pHicon ) = 0;
+      virtual HRESULT __stdcall SetDbStandardsArray (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in]*/ VARIANT stdNameArray ) = 0;
+      virtual HRESULT __stdcall GetDbStandardsArray (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in,out]*/ VARIANT * filenameArray ) = 0;
+      virtual HRESULT __stdcall GetObjectFlags (
+        /*[in]*/ struct IAcadObject * pObj,
+        /*[in,out]*/ enum AcStFlags * flags,
+        /*[in,out]*/ BSTR * pUserIgnore,
+        /*[in,out]*/ BSTR * pAppIgnore ) = 0;
+      virtual HRESULT __stdcall SetObjectFlags (
+        /*[in]*/ struct IAcadObject * pObj,
+        /*[in]*/ enum AcStFlags flags,
+        /*[in]*/ BSTR szUserIgnore,
+        /*[in]*/ BSTR szAppIgnore ) = 0;
+      virtual HRESULT __stdcall SetObjectAliases (
+        /*[in]*/ struct IAcadObject * pObj,
+        /*[in]*/ BSTR szName,
+        /*[in]*/ VARIANT aliasArray ) = 0;
+      virtual HRESULT __stdcall GetObjectAliases (
+        /*[in]*/ struct IAcadObject * pObj,
+        /*[in]*/ BSTR szName,
+        /*[in,out]*/ VARIANT * pAliasArray ) = 0;
+      virtual HRESULT __stdcall StampDatabase (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in]*/ VARIANT pluginProgIdArray ) = 0;
+      virtual HRESULT __stdcall GetDbStampArrays (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in,out]*/ VARIANT * pProgIDArray,
+        /*[in,out]*/ VARIANT * pNameArray,
+        /*[in,out]*/ VARIANT * pVersionArray,
+        /*[in,out]*/ VARIANT * pDescriptionArray,
+        /*[in,out]*/ VARIANT * pAuthorArray,
+        /*[in,out]*/ VARIANT * pHRefArray ) = 0;
+      virtual HRESULT __stdcall get_ModelSpaceProxy (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[out,retval]*/ struct IAcStBlockProxy * * pModelSpace ) = 0;
+      virtual HRESULT __stdcall get_PaperSpaceProxy (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[out,retval]*/ struct IAcStBlockProxy * * pPaperSpace ) = 0;
+};
+
+struct __declspec(uuid("0cb1de25-b6e6-44e8-a91a-dd6976604ff3"))
+IAcStErrorIterator2 : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall Init (
+        /*[in]*/ struct IAcStManager2 * pMgr,
+        /*[in]*/ VARIANT pluginIUnkArray,
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in]*/ BSTR szPathName,
+        /*[in]*/ VARIANT stdNameArray,
+        /*[in]*/ VARIANT stdPathArray,
+        /*[in]*/ VARIANT stdDbArray ) = 0;
+      virtual HRESULT __stdcall Reset ( ) = 0;
+      virtual HRESULT __stdcall CheckSysvar (
+        /*[in]*/ BSTR sysVarName,
+        /*[in]*/ VARIANT_BOOL bGetAllFixes,
+        /*[out,retval]*/ VARIANT_BOOL * bPassFail ) = 0;
+      virtual HRESULT __stdcall WriteResultsToFiler (
+        /*[in]*/ struct IAcStFiler * pFiler,
+        /*[out,retval]*/ VARIANT_BOOL * bSuccess ) = 0;
+      virtual HRESULT __stdcall PushContext (
+        /*[in]*/ VARIANT_BOOL bUseDb ) = 0;
+      virtual HRESULT __stdcall PopContext ( ) = 0;
+      virtual HRESULT __stdcall ContextCount (
+        /*[out,retval]*/ int * nHeight ) = 0;
+      virtual HRESULT __stdcall IsCurrentContextDb (
+        /*[out,retval]*/ VARIANT_BOOL * bIsDbContext ) = 0;
+      virtual HRESULT __stdcall AddToObjectIdList (
+        /*[in]*/ LONG_PTR objId,
+        /*[in]*/ LONG_PTR pClass,
+        /*[in]*/ long flags ) = 0;
+      virtual HRESULT __stdcall ObjectIdListIsEmpty (
+        /*[out,retval]*/ VARIANT_BOOL * bIsEmpty ) = 0;
+      virtual HRESULT __stdcall get_ShowIgnored (
+        /*[out,retval]*/ VARIANT_BOOL * bShowIgnored ) = 0;
+      virtual HRESULT __stdcall put_ShowIgnored (
+        /*[in]*/ VARIANT_BOOL bShowIgnored ) = 0;
+      virtual HRESULT __stdcall Start (
+        /*[in]*/ VARIANT_BOOL bShowIgnored ) = 0;
+      virtual HRESULT __stdcall Next ( ) = 0;
+      virtual HRESULT __stdcall Done (
+        /*[out,retval]*/ VARIANT_BOOL * bIsDone ) = 0;
+      virtual HRESULT __stdcall GetError (
+        /*[out,retval]*/ struct IAcStError * * pErr ) = 0;
+      virtual HRESULT __stdcall Clear ( ) = 0;
+};
+
+struct __declspec(uuid("1e85d55a-bc22-48cf-8456-c67cfb3b86c1"))
+IAcStError : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Description (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_Description (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_Plugin (
+        /*[out,retval]*/ struct IAcStPlugin2 * * pPlugin ) = 0;
+      virtual HRESULT __stdcall put_Plugin (
+        /*[in]*/ struct IAcStPlugin2 * pPlugin ) = 0;
+      virtual HRESULT __stdcall get_BadObjectId (
+        /*[out,retval]*/ LONG_PTR * objId ) = 0;
+      virtual HRESULT __stdcall put_BadObjectId (
+        /*[in]*/ LONG_PTR objId ) = 0;
+      virtual HRESULT __stdcall get_BadObjectName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_BadObjectName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall get_ErrorTypeName (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall put_ErrorTypeName (
+        /*[in]*/ BSTR pVal ) = 0;
+      virtual HRESULT __stdcall writeData (
+        /*[in]*/ IDispatch * pParentNode ) = 0;
+      virtual HRESULT __stdcall GetPropertyDiffs (
+        /*[in]*/ struct IAcStFix * pFix,
+        /*[in,out]*/ VARIANT * pPropNames,
+        /*[in,out]*/ VARIANT * pErrorValues,
+        /*[in,out]*/ VARIANT * pFixValues,
+        /*[in,out]*/ VARIANT * pFixableStatuses ) = 0;
+      virtual HRESULT __stdcall ApplyFix (
+        /*[in]*/ struct IAcStFix * pFix,
+        /*[out]*/ BSTR * pFailedReason ) = 0;
+      virtual HRESULT __stdcall get_ResultStatus (
+        /*[out,retval]*/ enum AcStResultStatus * flags ) = 0;
+      virtual HRESULT __stdcall put_ResultStatus (
+        /*[in]*/ enum AcStResultStatus flags ) = 0;
+      virtual HRESULT __stdcall UpdateStatus ( ) = 0;
+      virtual HRESULT __stdcall GetRecommendedFix (
+        /*[out,retval]*/ struct IAcStFix * * pFix ) = 0;
+      virtual HRESULT __stdcall GetAllFixes (
+        /*[in,out]*/ VARIANT * fixArray,
+        /*[in,out]*/ long * recommendedFixIndex ) = 0;
+      virtual HRESULT __stdcall IgnoredByUserGet (
+        /*[in,out]*/ VARIANT_BOOL * bIgnored,
+        /*[in,out]*/ BSTR * UserName ) = 0;
+      virtual HRESULT __stdcall IgnoredByUserPut (
+        /*[in]*/ VARIANT_BOOL bIgnored,
+        /*[in]*/ BSTR UserName ) = 0;
+      virtual HRESULT __stdcall IgnoredByApplicationGet (
+        /*[in,out]*/ VARIANT_BOOL * bIgnored,
+        /*[in,out]*/ BSTR * appName ) = 0;
+      virtual HRESULT __stdcall IgnoredByApplicationPut (
+        /*[in]*/ VARIANT_BOOL bIgnored,
+        /*[in]*/ BSTR appName ) = 0;
+      virtual HRESULT __stdcall Reset ( ) = 0;
+      virtual HRESULT __stdcall get_PropertyCount (
+        /*[out,retval]*/ long * pCount ) = 0;
+      virtual HRESULT __stdcall PropertyGetAt (
+        /*[in]*/ long index,
+        /*[in,out]*/ BSTR * szName,
+        /*[in,out]*/ VARIANT * value ) = 0;
+      virtual HRESULT __stdcall PropertyValueGet (
+        /*[in]*/ BSTR szName,
+        /*[out,retval]*/ VARIANT * value ) = 0;
+      virtual HRESULT __stdcall PropertyValuePut (
+        /*[in]*/ BSTR szName,
+        /*[in]*/ VARIANT value ) = 0;
+};
+
+struct __declspec(uuid("83a1cf1a-e021-4840-91f0-8defa9668296"))
+IAcStPlugin2 : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall Initialize (
+        /*[in]*/ struct IAcStManager2 * pMgr ) = 0;
+      virtual HRESULT __stdcall SetupForAudit (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in]*/ BSTR szPathName,
+        /*[in]*/ VARIANT stdNameArray,
+        /*[in]*/ VARIANT stdPathArray,
+        /*[in]*/ VARIANT stdDbArray ) = 0;
+      virtual HRESULT __stdcall Clear ( ) = 0;
+      virtual HRESULT __stdcall CheckSysvar (
+        /*[in]*/ BSTR syvarName,
+        /*[in]*/ VARIANT_BOOL bGetAllFixes,
+        /*[in,out]*/ VARIANT_BOOL * bPassFail ) = 0;
+      virtual HRESULT __stdcall StampDatabase (
+        /*[in]*/ struct IAcadDatabase * pDb,
+        /*[in,out]*/ VARIANT_BOOL * pStampIt ) = 0;
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_Version (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_Description (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_Author (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_HRef (
+        /*[out,retval]*/ BSTR * pVal ) = 0;
+      virtual HRESULT __stdcall get_Icon (
+        /*[out,retval]*/ LONG_PTR * pVal ) = 0;
+      virtual HRESULT __stdcall Start (
+        /*[in]*/ struct IAcStError * pStartError ) = 0;
+      virtual HRESULT __stdcall Next ( ) = 0;
+      virtual HRESULT __stdcall Done (
+        /*[out,retval]*/ VARIANT_BOOL * bIsDone ) = 0;
+      virtual HRESULT __stdcall GetError (
+        /*[out,retval]*/ struct IAcStError * * pErr ) = 0;
+      virtual HRESULT __stdcall SetContext (
+        /*[in]*/ VARIANT objIdArray,
+        /*[in]*/ VARIANT_BOOL bUseDb ) = 0;
+      virtual HRESULT __stdcall GetObjectFilter (
+        /*[out,retval]*/ VARIANT * classNameArray ) = 0;
+      virtual HRESULT __stdcall GetRecommendedFix (
+        /*[in]*/ struct IAcStError * pError,
+        /*[out,retval]*/ struct IAcStFix * * pFix ) = 0;
+      virtual HRESULT __stdcall GetAllFixes (
+        /*[in]*/ struct IAcStError * pError,
+        /*[in,out]*/ VARIANT * fixArray,
+        /*[in,out]*/ long * recommendedFixIndex ) = 0;
+      virtual HRESULT __stdcall GetPropertyDiffs (
+        /*[in]*/ struct IAcStError * pError,
+        /*[in]*/ struct IAcStFix * pFix,
+        /*[in,out]*/ VARIANT * pPropNames,
+        /*[in,out]*/ VARIANT * pErrorValues,
+        /*[in,out]*/ VARIANT * pFixValues,
+        /*[in,out]*/ VARIANT * pFixableStatuses ) = 0;
+      virtual HRESULT __stdcall FixError (
+        /*[in]*/ struct IAcStError * pError,
+        /*[in]*/ struct IAcStFix * pFix,
+        /*[out]*/ BSTR * pFailedReason ) = 0;
+      virtual HRESULT __stdcall UpdateStatus (
+        /*[in]*/ struct IAcStError * pError ) = 0;
+      virtual HRESULT __stdcall WritePluginInfo (
+        /*[in]*/ IDispatch * pPluginInfoSectionNode ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_AcStMgr =
+    {0x74d9eae2,0xfe69,0x4286,{0xa6,0xae,0xe6,0x38,0xad,0x1c,0x41,0xa2}};
+extern "C" const GUID __declspec(selectany) IID_IAcStFiler =
+    {0xb9a070c2,0x1334,0x4ebc,{0x96,0xaa,0xf7,0x33,0xdf,0x5a,0x8f,0x39}};
+extern "C" const GUID __declspec(selectany) IID_IAcStFix =
+    {0x7bcf0ec2,0x45c8,0x4e89,{0x98,0x2e,0xf7,0x15,0x20,0x04,0xf6,0x0d}};
+extern "C" const GUID __declspec(selectany) IID_IAcStBlockProxy =
+    {0x83286447,0xf0c1,0x4ba0,{0xaa,0xa9,0x60,0x3a,0xf1,0xe1,0x5f,0x87}};
+extern "C" const GUID __declspec(selectany) CLSID_AcStManager =
+    {0x8dd5e791,0x5f4c,0x498e,{0x93,0xaa,0x07,0x50,0x81,0xd7,0xd7,0x11}};
+extern "C" const GUID __declspec(selectany) CLSID_AcStFiler =
+    {0xe6fbffcf,0xc221,0x477d,{0xa4,0xb9,0xbd,0x63,0xea,0x59,0x76,0x8d}};
+extern "C" const GUID __declspec(selectany) CLSID_AcStErrorIterator =
+    {0x364fcd7c,0x610d,0x4a09,{0xb1,0x6c,0x2c,0x6d,0xd2,0xf4,0xe5,0xca}};
+extern "C" const GUID __declspec(selectany) CLSID_AcStError =
+    {0x0f7739c3,0xe711,0x4f39,{0xbc,0x13,0x76,0x66,0xfe,0xd0,0xbc,0xf9}};
+extern "C" const GUID __declspec(selectany) CLSID_AcStFix =
+    {0x98b06198,0xebc9,0x45b5,{0x86,0xc2,0x28,0x24,0x78,0xf7,0xb4,0x99}};
+extern "C" const GUID __declspec(selectany) CLSID_AcStModelSpaceProxy =
+    {0x74f278d6,0xc6ff,0x4fcb,{0x90,0xac,0x73,0x3c,0xe4,0x5c,0x99,0x03}};
+extern "C" const GUID __declspec(selectany) CLSID_AcStPaperSpaceProxy =
+    {0x954b7ef6,0x2188,0x44cb,{0x83,0x92,0x31,0xae,0x1a,0x4a,0xa0,0x5e}};
+extern "C" const GUID __declspec(selectany) IID_IAcStManager2 =
+    {0x130804bc,0xb997,0x49e8,{0x82,0xe3,0xca,0x8c,0xc0,0x81,0xad,0x9e}};
+extern "C" const GUID __declspec(selectany) IID_IAcStErrorIterator2 =
+    {0x0cb1de25,0xb6e6,0x44e8,{0xa9,0x1a,0xdd,0x69,0x76,0x60,0x4f,0xf3}};
+extern "C" const GUID __declspec(selectany) IID_IAcStError =
+    {0x1e85d55a,0xbc22,0x48cf,{0x84,0x56,0xc6,0x7c,0xfb,0x3b,0x86,0xc1}};
+extern "C" const GUID __declspec(selectany) IID_IAcStPlugin2 =
+    {0x83a1cf1a,0xe021,0x4840,{0x91,0xf0,0x8d,0xef,0xa9,0x66,0x82,0x96}};
+
+#pragma pack(pop)

@@ -1,0 +1,24 @@
+﻿  stdafx.cpp
+  NSAssetMgrIFace.cpp
+e:\giscad\giscad2018\inernal\assetmgr\assetmgr\..\..\Include\NSEllipseConnector.h(7): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+e:\giscad\giscad2018\inernal\assetmgr\assetmgr\..\..\Include\NSEllipseConnector.h(7): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+e:\giscad\giscad2018\inernal\assetmgr\assetmgr\..\..\Include\NSEllipseConnector.h(8): warning C4192: automatically excluding 'IErrorInfo' while importing type library 'C:\Program Files (x86)\Common Files\MSSoap\Binaries\MSSOAP30.dll'
+  NSAssetHandler.cpp
+NSAssetHandler.cpp(84): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(425): note: see declaration of '_wcsupr'
+NSAssetHandler.cpp(123): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(425): note: see declaration of '_wcsupr'
+NSAssetHandler.cpp(136): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(425): note: see declaration of '_wcsupr'
+NSAssetHandler.cpp(282): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+NSAssetHandler.cpp(2208): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+NSAssetHandler.cpp(2338): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1316): note: see declaration of 'itoa'
+  AssetMgr.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\GISCAD\Giscad2018\Inernal\AssetMgr\AssetMgr\x64\Debug\AssetMgr.dll) does not match the Linker's OutputFile property value (E:\GISCAD\Giscad2018\Inernal\debug\AssetMgr.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  LINK : ..\..\debug\AssetMgr.dll not found or not built by the last incremental link; performing full link
+     Creating library ..\..\LibD\AssetMgrD.lib and object ..\..\LibD\AssetMgrD.exp
+  AssetMgr.vcxproj -> E:\GISCAD\Giscad2018\Inernal\AssetMgr\AssetMgr\x64\Debug\AssetMgr.dll
+  AssetMgr.vcxproj -> x64\Debug\AssetMgrD.pdb (Full PDB)
