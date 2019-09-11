@@ -1,0 +1,191 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "AcadValidation ObjectARX application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "AcadValidation"
+            VALUE "LegalCopyright", "Copyright © 2002"
+            VALUE "OriginalFilename", "NSAcadValidation.arx"
+            VALUE "ProductName", "AcadValidation Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VALIDATE_DIALOG DIALOGEX 0, 0, 242, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Design Validation 2014 V3.7"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",WS_TABSTOP,7,7,228,221
+    DEFPUSHBUTTON   "&Validate",IDOK,115,229,50,14
+    PUSHBUTTON      "E&xit",IDCANCEL,178,229,50,14
+END
+
+IDD_ELLIPSE_DIALOG DIALOGEX 0, 0, 212, 224
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Asset Number Validation",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,15,46,93,10
+    COMBOBOX        IDC_COMBO1,84,59,101,16,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_USER,84,83,101,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_PWD,84,107,101,12,ES_UPPERCASE | ES_PASSWORD | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT1_POSITION,84,131,101,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_DIST,84,155,101,12,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Host",IDC_STATIC,26,60,16,8
+    LTEXT           "User",IDC_STATIC,26,84,16,8
+    LTEXT           "Password",IDC_STATIC,26,108,32,8
+    LTEXT           "District",IDC_STATIC,26,156,23,8
+    LTEXT           "Position",IDC_STATIC_POSITION,26,132,41,14
+    CONTROL         "C&AD Validation",IDC_CHK_CADVALIDATION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,14,63,10
+    CONTROL         "G&IS Validation",IDC_CHK_GISVALIDATION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,30,60,10
+    GROUPBOX        "Validation Rules Error Messages",IDC_VALIDATION_ERRORS,20,174,168,24
+    CONTROL         "P1",IDC_CHK_P1_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,27,184,24,10
+    CONTROL         "P2",IDC_CHK_P2_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,71,184,24,10
+    CONTROL         "P3",IDC_CHK_P3_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,115,184,24,10
+    CONTROL         "P4",IDC_CHK_P4_ERRORS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,159,184,24,10
+END
+
+IDD_REPORT_DIALOG DIALOGEX 0, 0, 231, 217
+STYLE DS_SETFONT | WS_CHILD
+EXSTYLE WS_EX_CONTROLPARENT
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_REPORT_EDIT,7,7,215,186,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_VALIDATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_ELLIPSE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 217
+    END
+
+    IDD_REPORT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "..\\..\\GISCADLOADER\\GISCADLoader\\res\\IE_LOGO.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_PROJNAME            "AcadValidation"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
