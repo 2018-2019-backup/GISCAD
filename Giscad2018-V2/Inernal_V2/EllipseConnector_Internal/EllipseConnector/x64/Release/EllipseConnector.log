@@ -1,0 +1,25 @@
+﻿  stdafx.cpp
+  EllipseConnector.cpp
+  NSDataItem.cpp
+e:\giscad\giscad2018\inernal\ellipseconnector_internal\ellipseconnector\../../include/nsdataitem.h(15): warning C4251: 'CNSDataItem::m_mapOfParameters': class 'std::map<TCHAR *,TCHAR *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'CNSDataItem'
+          with
+          [
+              _Kty=TCHAR *,
+              _Ty=TCHAR *
+          ]
+  e:\giscad\giscad2018\inernal\ellipseconnector_internal\ellipseconnector\../../include/nsdataitem.h(15): note: see declaration of 'std::map<TCHAR *,TCHAR *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=TCHAR *,
+              _Ty=TCHAR *
+          ]
+NSDataItem.cpp(66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  NSEllipseConnector.cpp
+e:\giscad\giscad2018\inernal\ellipseconnector_internal\ellipseconnector\../../include/nsellipseconnector.h(7): warning C4192: automatically excluding 'ISequentialStream' while importing type library 'msxml6.dll'
+e:\giscad\giscad2018\inernal\ellipseconnector_internal\ellipseconnector\../../include/nsellipseconnector.h(7): warning C4192: automatically excluding '_FILETIME' while importing type library 'msxml6.dll'
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(E:\GISCAD\Giscad2018\Inernal\EllipseConnector_Internal\EllipseConnector\x64\Release\EllipseConnector.dll) does not match the Linker's OutputFile property value (E:\GISCAD\Giscad2018\Inernal\Release\EllipseConnector_Internal.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(EllipseConnector) does not match the Linker's OutputFile property value (EllipseConnector_Internal). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ..\..\Lib\EllipseConnector_Internal.lib and object ..\..\Lib\EllipseConnector_Internal.exp
+  EllipseConnector.vcxproj -> E:\GISCAD\Giscad2018\Inernal\EllipseConnector_Internal\EllipseConnector\x64\Release\EllipseConnector.dll
+  EllipseConnector.vcxproj -> x64\Release\EllipseConnector.pdb (Full PDB)

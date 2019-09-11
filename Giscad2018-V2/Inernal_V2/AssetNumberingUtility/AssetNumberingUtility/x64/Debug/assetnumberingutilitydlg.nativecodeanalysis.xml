@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acgi.h</FILENAME>
+      <LINE>2241</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kCylinder' hides previous declaration at line '79' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acgilighttraits.h</FILENAME>
+      <LINE>292</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kSphere' hides previous declaration at line '76' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acgilighttraits.h</FILENAME>
+      <LINE>292</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kCylinder' hides previous declaration at line '79' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbsymtb.h</FILENAME>
+      <LINE>194</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kUniform' hides previous declaration at line '198' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>198</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acly.h</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kOk' hides previous declaration at line '174' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kBottomLeft' hides previous declaration at line '423' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kMiddleRight' hides previous declaration at line '422' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>422</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kMiddleCenter' hides previous declaration at line '421' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kBottomCenter' hides previous declaration at line '424' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>424</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kMiddleLeft' hides previous declaration at line '420' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>420</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kTopRight' hides previous declaration at line '419' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>419</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kTopLeft' hides previous declaration at line '417' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>417</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kTopCenter' hides previous declaration at line '418' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>418</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kBottomRight' hides previous declaration at line '425' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>173</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kBtoT' hides previous declaration at line '405' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>405</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmtext.h</FILENAME>
+      <LINE>173</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kTtoB' hides previous declaration at line '404' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>404</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acvalue.h</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kUnknown' hides previous declaration at line '157' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbfield.h</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kOpen' hides previous declaration at line '139' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmline.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kClosed' hides previous declaration at line '140' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>140</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbmline.h</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kOpen' hides previous declaration at line '139' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>139</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>achapi.h</FILENAME>
+      <LINE>33</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kUndefined' hides previous declaration at line '315' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbdatatable.h</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kUnknown' hides previous declaration at line '157' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbgripoperations.h</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'eOk' hides previous declaration at line '58' of 'd:\my c sharp app\objectarx_2018\inc\acdbabbes.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabbes.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acgimaterial.h</FILENAME>
+      <LINE>486</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kPlanar' hides previous declaration at line '263' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>263</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acgimaterial.h</FILENAME>
+      <LINE>486</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kSphere' hides previous declaration at line '76' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acgimaterial.h</FILENAME>
+      <LINE>486</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kCylinder' hides previous declaration at line '79' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acgimaterial.h</FILENAME>
+      <LINE>502</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kObject' hides previous declaration at line '115' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>115</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbxentrypoint.h</FILENAME>
+      <LINE>163</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer '*ppEntry'. </DESCRIPTION>
+    <FUNCTION>AcRxDbxApp::DeleteClassAndDescendant</FUNCTION>
+    <DECORATED>?DeleteClassAndDescendant@AcRxDbxApp@@AEAAXPEAPEAU_DBX_REGISTER_OBJECT_ENTRY@@@Z</DECORATED>
+    <FUNCLINE>154</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>90</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>60</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>127</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>90</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>60</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>127</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>90</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>dbxentrypoint.h</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*ppEntry' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acdocman.h</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kUnknown' hides previous declaration at line '157' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acdocman.h</FILENAME>
+      <LINE>349</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kUnknown' hides previous declaration at line '157' of 'd:\my c sharp app\objectarx_2018\inc\gegblabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>gegblabb.h</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>dbjig.h</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kInvisible' hides previous declaration at line '67' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+      <FILENAME>acplplotconfigmgr.h</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'kUndefined' hides previous declaration at line '315' of 'd:\my c sharp app\objectarx_2018\inc\acdbabb.h'.</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\objectarx_2018\inc\</FILEPATH>
+        <FILENAME>acdbabb.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2405</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserSize': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5330). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserSize</FUNCTION>
+    <DECORATED>BSTR_UserSize</DECORATED>
+    <FUNCLINE>2405</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2406</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserMarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5331). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserMarshal</FUNCTION>
+    <DECORATED>BSTR_UserMarshal</DECORATED>
+    <FUNCLINE>2406</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2407</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserUnmarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5332). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserUnmarshal</FUNCTION>
+    <DECORATED>BSTR_UserUnmarshal</DECORATED>
+    <FUNCLINE>2407</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2408</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'BSTR_UserFree': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5333). Note: There are several prototypes for this function. This warning compares the first with instance number 11. </DESCRIPTION>
+    <FUNCTION>BSTR_UserFree</FUNCTION>
+    <DECORATED>BSTR_UserFree</DECORATED>
+    <FUNCLINE>2408</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2410</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'VARIANT_UserSize': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5340). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>VARIANT_UserSize</FUNCTION>
+    <DECORATED>VARIANT_UserSize</DECORATED>
+    <FUNCLINE>2410</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2411</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'VARIANT_UserMarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5341). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>VARIANT_UserMarshal</FUNCTION>
+    <DECORATED>VARIANT_UserMarshal</DECORATED>
+    <FUNCLINE>2411</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2412</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'VARIANT_UserUnmarshal': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5342). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>VARIANT_UserUnmarshal</FUNCTION>
+    <DECORATED>VARIANT_UserUnmarshal</DECORATED>
+    <FUNCLINE>2412</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\objectarx_2018\inc-x64\</FILEPATH>
+      <FILENAME>actc_i.h</FILENAME>
+      <LINE>2413</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'VARIANT_UserFree': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\include\um\oaidl.h(5343). Note: There are several prototypes for this function. This warning compares the first with instance number 6. </DESCRIPTION>
+    <FUNCTION>VARIANT_UserFree</FUNCTION>
+    <DECORATED>VARIANT_UserFree</DECORATED>
+    <FUNCLINE>2413</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+      <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+      <LINE>140</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'ATL::CStringT&lt;wchar_t,StrTraitMFC_DLL&lt;wchar_t,ATL::ChTraitsCRT&lt;wchar_t&gt; &gt; &gt;::LoadStringW'.</DESCRIPTION>
+    <FUNCTION>CAssetNumberingUtilityDlg::OnInitDialog</FUNCTION>
+    <DECORATED>?OnInitDialog@CAssetNumberingUtilityDlg@@MEAAHXZ</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+      <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+      <LINE>301</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Object passed as _Param_(3) when a string is required in call to 'fprintf' Actual type: 'class ATL::CStringT&lt;wchar_t,class StrTraitMFC_DLL&lt;wchar_t,class ATL::ChTraitsCRT&lt;wchar_t&gt; &gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>CAssetNumberingUtilityDlg::OnGenerateNumbers</FUNCTION>
+    <DECORATED>?OnGenerateNumbers@CAssetNumberingUtilityDlg@@IEAAXXZ</DECORATED>
+    <FUNCLINE>291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+      <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+      <LINE>304</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Object passed as _Param_(3) when a string is required in call to 'fprintf' Actual type: 'class ATL::CStringT&lt;wchar_t,class StrTraitMFC_DLL&lt;wchar_t,class ATL::ChTraitsCRT&lt;wchar_t&gt; &gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>CAssetNumberingUtilityDlg::OnGenerateNumbers</FUNCTION>
+    <DECORATED>?OnGenerateNumbers@CAssetNumberingUtilityDlg@@IEAAXXZ</DECORATED>
+    <FUNCLINE>291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+      <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+      <LINE>543</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>String 'szAssetsCnt' might not be zero-terminated.</DESCRIPTION>
+    <FUNCTION>CAssetNumberingUtilityDlg::OnScan</FUNCTION>
+    <DECORATED>?OnScan@CAssetNumberingUtilityDlg@@IEAAXXZ</DECORATED>
+    <FUNCLINE>462</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>464</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>466</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>503</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>505</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>506</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>508</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>509</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>510</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>512</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>513</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>515</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>516</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>518</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>525</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>526</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>527</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>531</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>533</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>534</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>This expression may not zero-terminate 'szAssetsCnt'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>535</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'szAssetsCnt' is an Output from 'swprintf_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdio.h:1553)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>539</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'nSize!=0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>541</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>542</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>543</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'szAssetsCnt' is an Input to 'CListCtrl::SetItemText' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxcmn.h:384)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\my c sharp app\kkmsoft\giscad2016\inernal\assetnumberingutility\assetnumberingutility\</FILEPATH>
+        <FILENAME>assetnumberingutilitydlg.cpp</FILENAME>
+        <LINE>543</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'szAssetsCnt' is required to be zero-terminated by a SAL annotation on 'SetItemText'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
